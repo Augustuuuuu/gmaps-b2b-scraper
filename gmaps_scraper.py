@@ -199,15 +199,16 @@ def scroll_lista(page, n_scrolls: int = 10) -> None:
 
 def coletar_links_visiveis(page) -> list[str]:
     """
-    Varre todos os cards visíveis na lista lateral e retorna
-    uma lista de URLs de estabelecimentos para visitar.
+    Busca todos os links de estabelecimentos visíveis na página.
+    Usa seletor direto em vez de seletor aninhado — mais resistente
+    a mudanças de layout do Google Maps.
     """
-    links = page.query_selector_all(f'{SEL_ITEM_LISTA} {SEL_LINK_ITEM}')
+    # Seletor simplificado: qualquer <a> que aponte para um lugar no Maps
+    links = page.query_selector_all('a[href*="/maps/place/"]')
     urls = []
     for link in links:
         href = link.get_attribute("href")
         if href and "/maps/place/" in href:
-            # Normaliza a URL removendo parâmetros desnecessários
             url_limpa = href.split("?")[0]
             if url_limpa not in urls:
                 urls.append(url_limpa)
@@ -271,7 +272,7 @@ def scrape_google_maps(nicho: str, cidade: str, headless: bool = True) -> pd.Dat
         # NAVEGAÇÃO INICIAL
         # ----------------------------------------------------------------
         print("📍 Abrindo Google Maps...")
-        page.goto(url_busca, wait_until="networkidle", timeout=30_000)
+        page.goto(url_busca, wait_until="domcontentloaded", timeout=30_000)
         time.sleep(3)
 
         # Fecha banner de cookies, se aparecer
@@ -327,6 +328,7 @@ def scrape_google_maps(nicho: str, cidade: str, headless: bool = True) -> pd.Dat
             try:
                 # Navega para a página do estabelecimento
                 page.goto(link, wait_until="domcontentloaded", timeout=20_000)
+                time.sleep(2)
                 time.sleep(PAUSA_DETALHE)
 
                 # Aguarda o painel de detalhes carregar
