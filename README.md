@@ -27,11 +27,11 @@ input: nicho + cidade
 
 ## Stack
 
-| Lib | Função |
-|---|---|
+| Lib            | Função                                     |
+| -------------- | -------------------------------------------- |
 | `playwright` | Automação do navegador (Chromium headless) |
-| `pandas` | Estruturação e exportação dos dados |
-| `openpyxl` | Formatação da planilha `.xlsx` |
+| `pandas`     | Estruturação e exportação dos dados      |
+| `openpyxl`   | Formatação da planilha `.xlsx`           |
 
 ---
 
@@ -68,14 +68,14 @@ O arquivo gerado segue o padrão `leads_{nicho}_{cidade}_{timestamp}.xlsx`.
 
 ## Output
 
-| Coluna | Descrição |
-|---|---|
-| `Nome` | Nome do estabelecimento |
-| `Status do Site` | `Não Tem` / `Tem` |
-| `Telefone` | Número extraído do perfil |
-| `Endereço` | Endereço completo |
-| `Website` | URL do site (quando presente) |
-| `Link do Maps` | URL direta para o perfil |
+| Coluna             | Descrição                   |
+| ------------------ | ----------------------------- |
+| `Nome`           | Nome do estabelecimento       |
+| `Status do Site` | `Não Tem` / `Tem`        |
+| `Telefone`       | Número extraído do perfil   |
+| `Endereço`      | Endereço completo            |
+| `Website`        | URL do site (quando presente) |
+| `Link do Maps`   | URL direta para o perfil      |
 
 Leads com `Status do Site = Não Tem` são ordenados no topo e destacados em vermelho na planilha — são os contatos prioritários para oferta de serviços digitais.
 
@@ -126,7 +126,7 @@ Pull requests são bem-vindos. Para mudanças maiores, abra uma issue primeiro d
 ### Setup de desenvolvimento
 
 ```bash
-git clone https://github.com/seu-usuario/gmaps-b2b-scraper.git
+git clone https://github.com/augustuuuuu/gmaps-b2b-scraper.git
 cd gmaps-b2b-scraper
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
@@ -160,6 +160,7 @@ chore:    manutenção (deps, config, etc.)
 ### Reportando bugs
 
 Abra uma [issue](https://github.com/seu-usuario/gmaps-b2b-scraper/issues) com:
+
 - Versão do Python e SO
 - Nicho e cidade usados na busca
 - Trecho do traceback (se houver)
