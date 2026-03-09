@@ -199,16 +199,15 @@ def scroll_lista(page, n_scrolls: int = 10) -> None:
 
 def coletar_links_visiveis(page) -> list[str]:
     """
-    Busca todos os links de estabelecimentos visíveis na página.
-    Usa seletor direto em vez de seletor aninhado — mais resistente
-    a mudanças de layout do Google Maps.
+    Varre todos os cards visíveis na lista lateral e retorna
+    uma lista de URLs de estabelecimentos para visitar.
     """
-    # Seletor simplificado: qualquer <a> que aponte para um lugar no Maps
-    links = page.query_selector_all('a[href*="/maps/place/"]')
+    links = page.query_selector_all(f'{SEL_ITEM_LISTA} {SEL_LINK_ITEM}')
     urls = []
     for link in links:
         href = link.get_attribute("href")
         if href and "/maps/place/" in href:
+            # Normaliza a URL removendo parâmetros desnecessários
             url_limpa = href.split("?")[0]
             if url_limpa not in urls:
                 urls.append(url_limpa)
@@ -272,7 +271,7 @@ def scrape_google_maps(nicho: str, cidade: str, headless: bool = True) -> pd.Dat
         # NAVEGAÇÃO INICIAL
         # ----------------------------------------------------------------
         print("📍 Abrindo Google Maps...")
-        page.goto(url_busca, wait_until="domcontentloaded", timeout=30_000)
+        page.goto(url_busca, wait_until="networkidle", timeout=30_000)
         time.sleep(3)
 
         # Fecha banner de cookies, se aparecer
@@ -328,7 +327,6 @@ def scrape_google_maps(nicho: str, cidade: str, headless: bool = True) -> pd.Dat
             try:
                 # Navega para a página do estabelecimento
                 page.goto(link, wait_until="domcontentloaded", timeout=20_000)
-                time.sleep(2)
                 time.sleep(PAUSA_DETALHE)
 
                 # Aguarda o painel de detalhes carregar
@@ -470,6 +468,263 @@ def exibir_resumo(df: pd.DataFrame, nicho: str, cidade: str) -> None:
 
 
 # ============================================================================
+#  GERADOR DE PROMPTS DE SITE
+#  Para cada lead sem website, gera um prompt preenchido com os dados
+#  coletados, pronto para colar no Claude e gerar uma landing page completa.
+# ============================================================================
+
+TEMPLATE_PROMPT = """Você é um desenvolvedor web senior e designer especialista em landing pages de alta conversão para prestadores de serviços locais no Brasil. Crie um site completo em HTML, CSS e JavaScript puro (arquivo único) seguindo TODAS as instruções abaixo com precisão.
+
+---
+
+### 🏢 DADOS DA EMPRESA
+
+- **Nome da empresa:** {nome}
+- **Segmento / tipo de serviço:** {segmento}
+- **Cidade / região de atuação:** {cidade}
+- **Número WhatsApp (com DDI):** {whatsapp}
+- **Cor primária da marca (hex):** {cor_primaria}
+- **Cor secundária / de apoio (hex):** {cor_secundaria}
+- **URL da logo:** sem logo
+- **Serviços oferecidos:** {servicos}
+- **Diferenciais da empresa:** {diferenciais}
+- **Depoimentos de clientes:** (gere 3 depoimentos fictícios verossímeis para o segmento)
+- **CNPJ:** não informado
+- **E-mail:** não informado
+- **Redes sociais:** não informado
+- **Funciona quantas horas / dias?** {horario}
+- **Tom de comunicação desejado:** {tom}
+
+---
+
+### 🎨 REGRAS DE DESIGN (OBRIGATÓRIAS)
+
+1. **DESIGN ÚNICO E INOVADOR**: O layout deve ser original e visualmente impactante. PROIBIDO usar estruturas genéricas. Escolha UMA direção estética forte e execute com precisão:
+   - Brutalist / Raw (tipografia pesada, contraste extremo, formas cortadas)
+   - Editorial Magazine (assimetria elegante, colunas criativas, espaços generosos)
+   - Dark Luxury (fundo escuro, detalhes dourados ou vibrantes, sofisticação)
+   - Industrial Bold (texturas de metal/concreto, tipografia condensada, badges técnicos)
+   - Organic & Clean (gradientes suaves, formas arredondadas, leveza visual)
+   - Neon Urban (fundo escuro + neon da cor da marca, energia urbana)
+   - Minimalismo Geométrico (linhas precisas, grid rigoroso, espaço em branco proposital)
+
+2. **TIPOGRAFIA DISTINTIVA**: Importe fontes do Google Fonts que combinem com o segmento. PROIBIDO usar Inter, Roboto ou Arial.
+
+3. **PALETA DE CORES**: Use a cor primária da empresa como dominante. Verde WhatsApp (#25D366) APENAS nos botões de contato.
+
+4. **ANIMAÇÕES FUNCIONAIS**: Inclua obrigatoriamente:
+   - Pulsação no botão de WhatsApp principal
+   - Fade-in + slide nos elementos ao rolar a página (IntersectionObserver)
+   - Hover states expressivos nos cards e botões
+   - Contador animado de números
+
+5. **LAYOUT DINÂMICO**: Use pelo menos 2 técnicas de composição avançadas.
+
+---
+
+### 📐 ESTRUTURA OBRIGATÓRIA DO SITE
+
+1. HEADER FIXO com logo, menu desktop e botão WhatsApp
+2. HERO SECTION com H1 "{segmento} em {cidade}", 2 CTAs e badge de disponibilidade
+3. SEÇÃO DE SERVIÇOS em grid de cards com botão WhatsApp específico por serviço
+4. SEÇÃO "POR QUE NOS ESCOLHER" com diferenciais e contadores animados
+5. DEPOIMENTOS com avatares, estrelas e avaliação média
+6. SEÇÃO DE ORÇAMENTO RÁPIDO com urgência e botão WhatsApp gigante
+7. FAQ com accordion (4-6 perguntas relevantes ao segmento, SEO semântico)
+8. FOOTER completo
+9. BOTÃO FLUTUANTE FIXO do WhatsApp com pulsação
+
+---
+
+### 📱 RESPONSIVIDADE, SEO E WHATSAPP
+
+- Mobile-first, menu hamburger, grid adaptativo
+- Meta tags SEO completas, H1 único, Schema.org LocalBusiness JSON-LD
+- Todos os links WhatsApp com mensagens pré-preenchidas contextuais
+- URL padrão: https://wa.me/{whatsapp_raw}?text=[mensagem codificada]
+
+---
+
+### ⚙️ TÉCNICO
+
+- HTML5 semântico, Tailwind CSS via CDN, Google Fonts, JavaScript puro
+- Animações com @keyframes e IntersectionObserver
+- Cores como variáveis CSS no :root
+- Arquivo único .html completo e funcional
+
+**Gere o HTML completo, funcional e pronto para publicar. Não use comentários de TODO ou placeholders no código final.**"""
+
+
+def inferir_dados_segmento(nome: str, nicho: str, cidade: str) -> dict:
+    """
+    Infere dados padrão de design e copy com base no nicho detectado.
+    Retorna um dict com cor, serviços, diferenciais, horário e tom.
+    """
+
+    nicho_lower = nicho.lower()
+
+    # --- Mapeamento de nichos para paletas e diferenciais padrão ---
+    configs = {
+        "dedetiz": {
+            "cor_primaria": "#E21F26", "cor_secundaria": "#1a1a1a",
+            "servicos": "Dedetização, Desratização, Descupinização, Sanitização, Controle de pombos, Desinsetização",
+            "diferenciais": "Atendimento 24h, Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada, Orçamento grátis",
+            "horario": "24h / 7 dias por semana", "tom": "urgente e direto",
+        },
+        "eletric": {
+            "cor_primaria": "#F5A623", "cor_secundaria": "#0a0a0a",
+            "servicos": "Instalações elétricas, Manutenção preventiva, Laudos elétricos, Quadros de distribuição, Iluminação",
+            "diferenciais": "Eletricistas certificados NR10, Atendimento rápido, Garantia nos serviços, Orçamento no local, Equipe especializada",
+            "horario": "24h / 7 dias por semana", "tom": "confiável e técnico",
+        },
+        "encanament": {
+            "cor_primaria": "#1E90FF", "cor_secundaria": "#0a0a0a",
+            "servicos": "Desentupimento, Vazamentos, Instalação hidráulica, Limpeza de caixas d'água, Conserto de torneiras",
+            "diferenciais": "Atendimento emergencial, Equipe especializada, Garantia nos serviços, Orçamento grátis, Preço justo",
+            "horario": "24h / 7 dias por semana", "tom": "urgente e direto",
+        },
+        "limpez": {
+            "cor_primaria": "#00C49A", "cor_secundaria": "#f9f9f9",
+            "servicos": "Limpeza residencial, Limpeza comercial, Limpeza pós-obra, Lavagem de sofás e tapetes, Higienização",
+            "diferenciais": "Produtos ecológicos, Equipe uniformizada, Pontualidade garantida, Orçamento grátis, Seguro contra danos",
+            "horario": "Segunda a sábado, 8h às 18h", "tom": "amigável e próximo",
+        },
+        "pintur": {
+            "cor_primaria": "#FF6B35", "cor_secundaria": "#1a1a1a",
+            "servicos": "Pintura residencial, Pintura comercial, Textura, Grafiato, Pintura externa e interna",
+            "diferenciais": "Acabamento impecável, Materiais de qualidade, Prazo garantido, Orçamento grátis, Experiência comprovada",
+            "horario": "Segunda a sábado, 7h às 17h", "tom": "confiável e direto",
+        },
+        "ar.condicion": {
+            "cor_primaria": "#0099CC", "cor_secundaria": "#f0f0f0",
+            "servicos": "Instalação de ar-condicionado, Manutenção preventiva, Higienização, Recarga de gás, Conserto",
+            "diferenciais": "Técnicos certificados, Peças originais, Atendimento rápido, Garantia de serviço, Orçamento grátis",
+            "horario": "Segunda a sábado, 8h às 18h", "tom": "técnico e confiável",
+        },
+        "dentist": {
+            "cor_primaria": "#2E86AB", "cor_secundaria": "#f9f9f9",
+            "servicos": "Clareamento dental, Ortodontia, Implantes, Limpeza, Restaurações, Próteses dentárias",
+            "diferenciais": "Clínica moderna, Equipe especializada, Ambiente confortável, Parcelamento facilitado, Atendimento humanizado",
+            "horario": "Segunda a sexta, 8h às 18h", "tom": "confiável e acolhedor",
+        },
+        "academi": {
+            "cor_primaria": "#FF3D00", "cor_secundaria": "#0a0a0a",
+            "servicos": "Musculação, Funcional, Spinning, Yoga, Personal trainer, Aulas em grupo",
+            "diferenciais": "Equipamentos modernos, Professores qualificados, Ambiente climatizado, Planos flexíveis, Avaliação física gratuita",
+            "horario": "Segunda a sábado, 6h às 22h", "tom": "energético e motivador",
+        },
+    }
+
+    # Detecta o nicho pelo nome
+    config = None
+    for chave, dados in configs.items():
+        if re.search(chave, nicho_lower):
+            config = dados
+            break
+
+    # Fallback genérico se nicho não mapeado
+    if not config:
+        config = {
+            "cor_primaria": "#2563EB", "cor_secundaria": "#1a1a1a",
+            "servicos": f"Serviços de {nicho} em {cidade}",
+            "diferenciais": "Atendimento profissional, Qualidade garantida, Orçamento grátis, Equipe qualificada, Preço justo",
+            "horario": "Segunda a sábado, 8h às 18h", "tom": "profissional e direto",
+        }
+
+    return config
+
+
+def gerar_prompt_site(lead: dict, nicho: str, cidade: str) -> str:
+    """
+    Recebe os dados de um lead (sem site) e retorna o prompt completo
+    preenchido, pronto para ser colado no Claude e gerar a landing page.
+
+    Args:
+        lead:   Dicionário com Nome, Telefone, Endereço, etc.
+        nicho:  Nicho da busca (ex: "Dentistas")
+        cidade: Cidade da busca (ex: "São Paulo SP")
+    """
+    config = inferir_dados_segmento(lead["Nome"], nicho, cidade)
+
+    # Limpa o telefone para uso na URL do WhatsApp (somente dígitos)
+    telefone_raw = re.sub(r'\D', '', lead.get("Telefone", ""))
+    # Adiciona DDI 55 se não tiver
+    if telefone_raw and not telefone_raw.startswith("55"):
+        telefone_raw = "55" + telefone_raw
+
+    whatsapp_display = lead.get("Telefone") or telefone_raw or "não informado"
+
+    prompt = TEMPLATE_PROMPT.format(
+        nome          = lead["Nome"],
+        segmento      = nicho,
+        cidade        = cidade,
+        whatsapp      = whatsapp_display,
+        whatsapp_raw  = telefone_raw or "5500000000000",
+        cor_primaria  = config["cor_primaria"],
+        cor_secundaria= config["cor_secundaria"],
+        servicos      = config["servicos"],
+        diferenciais  = config["diferenciais"],
+        horario       = config["horario"],
+        tom           = config["tom"],
+    )
+
+    return prompt
+
+
+def salvar_prompts(df: pd.DataFrame, nicho: str, cidade: str) -> str:
+    """
+    Para cada lead sem site, gera e salva o prompt em um arquivo .txt
+    com separadores claros. Retorna o caminho do arquivo gerado.
+    """
+    leads_sem_site = df[df["Status do Site"] == "Não Tem"]
+
+    if leads_sem_site.empty:
+        return None
+
+    timestamp    = datetime.now().strftime("%Y%m%d_%H%M%S")
+    nome_arquivo = f"prompts_sites_{nicho.lower().replace(' ', '_')}_{cidade.lower().replace(' ', '_')}_{timestamp}.txt"
+
+    linhas = []
+    linhas.append("=" * 80)
+    linhas.append(f"  PROMPTS PARA GERAÇÃO DE SITES — {nicho.upper()} EM {cidade.upper()}")
+    linhas.append(f"  Gerado em: {datetime.now().strftime('%d/%m/%Y %H:%M')}")
+    linhas.append(f"  Total de prompts: {len(leads_sem_site)}")
+    linhas.append("=" * 80)
+    linhas.append("")
+    linhas.append("  COMO USAR:")
+    linhas.append("  1. Copie o bloco de prompt desejado (entre as linhas ▼ e ▲)")
+    linhas.append("  2. Cole no Claude (claude.ai) ou em qualquer LLM de sua preferência")
+    linhas.append("  3. O site HTML completo será gerado automaticamente")
+    linhas.append("  4. Salve o resultado como index.html e publique")
+    linhas.append("")
+
+    for idx, (_, row) in enumerate(leads_sem_site.iterrows(), start=1):
+        lead = row.to_dict()
+
+        linhas.append("─" * 80)
+        linhas.append(f"  LEAD #{idx:02} — {lead['Nome']}")
+        linhas.append(f"  📞 {lead['Telefone'] or 'Telefone não informado'}")
+        linhas.append(f"  📍 {lead['Endereço'] or 'Endereço não informado'}")
+        linhas.append(f"  🔗 {lead['Link do Maps']}")
+        linhas.append("─" * 80)
+        linhas.append("")
+        linhas.append("  ▼ COPIE O PROMPT ABAIXO ATÉ A LINHA ▲ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼")
+        linhas.append("")
+
+        prompt = gerar_prompt_site(lead, nicho, cidade)
+        linhas.append(prompt)
+
+        linhas.append("")
+        linhas.append("  ▲ FIM DO PROMPT ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲")
+        linhas.append("")
+
+    with open(nome_arquivo, "w", encoding="utf-8") as f:
+        f.write("\n".join(linhas))
+
+    return nome_arquivo
+
+
+# ============================================================================
 #  PONTO DE ENTRADA
 # ============================================================================
 
@@ -496,13 +751,22 @@ if __name__ == "__main__":
         df_leads = scrape_google_maps(nicho, cidade, headless=headless)
 
         if not df_leads.empty:
-            # Salva os resultados
-            arquivo = salvar_resultados(df_leads, nicho, cidade)
+            # Salva a planilha de resultados
+            arquivo_xlsx = salvar_resultados(df_leads, nicho, cidade)
 
-            # Exibe resumo
+            # Exibe resumo no terminal
             exibir_resumo(df_leads, nicho, cidade)
 
-            print(f"\n  📁 Arquivo gerado: {arquivo}\n")
+            # Gera os prompts de site para todos os leads sem website
+            sem_site = len(df_leads[df_leads["Status do Site"] == "Não Tem"])
+            if sem_site > 0:
+                print(f"\n  🤖 Gerando prompts de site para {sem_site} lead(s) sem website...")
+                arquivo_prompts = salvar_prompts(df_leads, nicho, cidade)
+                if arquivo_prompts:
+                    print(f"  ✅ Prompts salvos em: {arquivo_prompts}")
+                    print(f"  💡 Abra o arquivo, copie qualquer bloco de prompt e cole no Claude!")
+
+            print(f"\n  📁 Planilha gerada: {arquivo_xlsx}\n")
         else:
             print("\n❌ Nenhum dado coletado. Verifique a busca e tente novamente.")
 
