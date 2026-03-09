@@ -271,7 +271,7 @@ def scrape_google_maps(nicho: str, cidade: str, headless: bool = True) -> pd.Dat
         # NAVEGAÇÃO INICIAL
         # ----------------------------------------------------------------
         print("📍 Abrindo Google Maps...")
-        page.goto(url_busca, wait_until="networkidle", timeout=30_000)
+        page.goto(url_busca, wait_until="domcontentloaded", timeout=30_000)
         time.sleep(3)
 
         # Fecha banner de cookies, se aparecer

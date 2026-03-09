@@ -1,0 +1,2127 @@
+================================================================================
+  PROMPTS PARA GERAÇÃO DE SITES — DEDETIZADORA EM BRASÍLIA
+  Gerado em: 09/03/2026 12:46
+  Total de prompts: 23
+================================================================================
+
+  COMO USAR:
+  1. Copie o bloco de prompt desejado (entre as linhas ▼ e ▲)
+  2. Cole no Claude (claude.ai) ou em qualquer LLM de sua preferência
+  3. O site HTML completo será gerado automaticamente
+  4. Salve o resultado como index.html e publique
+
+────────────────────────────────────────────────────────────────────────────────
+  LEAD #01 — Alpha Service Controle de Pragas
+  📞 (61) 3052-5574
+  📍 Rua 07 condomínio 327 loja 03, St. Hab. Vicente Pires, Brasília - DF, 72007-415
+  🔗 https://www.google.com/maps/place/Alpha+Service+Controle+de+Pragas/data=!4m7!3m6!1s0x935a33c363baebbb:0xa8e4ca609e12587e!8m2!3d-15.7994819!4d-48.0427877!16s%2Fg%2F11h84_g5d8!19sChIJu-u6Y8MzWpMRflgSnmDK5Kg
+────────────────────────────────────────────────────────────────────────────────
+
+  ▼ COPIE O PROMPT ABAIXO ATÉ A LINHA ▲ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
+
+Você é um desenvolvedor web senior e designer especialista em landing pages de alta conversão para prestadores de serviços locais no Brasil. Crie um site completo em HTML, CSS e JavaScript puro (arquivo único) seguindo TODAS as instruções abaixo com precisão.
+
+---
+
+### 🏢 DADOS DA EMPRESA
+
+- **Nome da empresa:** Alpha Service Controle de Pragas
+- **Segmento / tipo de serviço:** Dedetizadora
+- **Cidade / região de atuação:** Brasília
+- **Número WhatsApp (com DDI):** (61) 3052-5574
+- **Cor primária da marca (hex):** #E21F26
+- **Cor secundária / de apoio (hex):** #1a1a1a
+- **URL da logo:** sem logo
+- **Serviços oferecidos:** Dedetização, Desratização, Descupinização, Sanitização, Controle de pombos, Desinsetização
+- **Diferenciais da empresa:** Atendimento 24h, Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada, Orçamento grátis
+- **Depoimentos de clientes:** (gere 3 depoimentos fictícios verossímeis para o segmento)
+- **CNPJ:** não informado
+- **E-mail:** não informado
+- **Redes sociais:** não informado
+- **Funciona quantas horas / dias?** 24h / 7 dias por semana
+- **Tom de comunicação desejado:** urgente e direto
+
+---
+
+### 🎨 REGRAS DE DESIGN (OBRIGATÓRIAS)
+
+1. **DESIGN ÚNICO E INOVADOR**: O layout deve ser original e visualmente impactante. PROIBIDO usar estruturas genéricas. Escolha UMA direção estética forte e execute com precisão:
+   - Brutalist / Raw (tipografia pesada, contraste extremo, formas cortadas)
+   - Editorial Magazine (assimetria elegante, colunas criativas, espaços generosos)
+   - Dark Luxury (fundo escuro, detalhes dourados ou vibrantes, sofisticação)
+   - Industrial Bold (texturas de metal/concreto, tipografia condensada, badges técnicos)
+   - Organic & Clean (gradientes suaves, formas arredondadas, leveza visual)
+   - Neon Urban (fundo escuro + neon da cor da marca, energia urbana)
+   - Minimalismo Geométrico (linhas precisas, grid rigoroso, espaço em branco proposital)
+
+2. **TIPOGRAFIA DISTINTIVA**: Importe fontes do Google Fonts que combinem com o segmento. PROIBIDO usar Inter, Roboto ou Arial.
+
+3. **PALETA DE CORES**: Use a cor primária da empresa como dominante. Verde WhatsApp (#25D366) APENAS nos botões de contato.
+
+4. **ANIMAÇÕES FUNCIONAIS**: Inclua obrigatoriamente:
+   - Pulsação no botão de WhatsApp principal
+   - Fade-in + slide nos elementos ao rolar a página (IntersectionObserver)
+   - Hover states expressivos nos cards e botões
+   - Contador animado de números
+
+5. **LAYOUT DINÂMICO**: Use pelo menos 2 técnicas de composição avançadas.
+
+---
+
+### 📐 ESTRUTURA OBRIGATÓRIA DO SITE
+
+1. HEADER FIXO com logo, menu desktop e botão WhatsApp
+2. HERO SECTION com H1 "Dedetizadora em Brasília", 2 CTAs e badge de disponibilidade
+3. SEÇÃO DE SERVIÇOS em grid de cards com botão WhatsApp específico por serviço
+4. SEÇÃO "POR QUE NOS ESCOLHER" com diferenciais e contadores animados
+5. DEPOIMENTOS com avatares, estrelas e avaliação média
+6. SEÇÃO DE ORÇAMENTO RÁPIDO com urgência e botão WhatsApp gigante
+7. FAQ com accordion (4-6 perguntas relevantes ao segmento, SEO semântico)
+8. FOOTER completo
+9. BOTÃO FLUTUANTE FIXO do WhatsApp com pulsação
+
+---
+
+### 📱 RESPONSIVIDADE, SEO E WHATSAPP
+
+- Mobile-first, menu hamburger, grid adaptativo
+- Meta tags SEO completas, H1 único, Schema.org LocalBusiness JSON-LD
+- Todos os links WhatsApp com mensagens pré-preenchidas contextuais
+- URL padrão: https://wa.me/556130525574?text=[mensagem codificada]
+
+---
+
+### ⚙️ TÉCNICO
+
+- HTML5 semântico, Tailwind CSS via CDN, Google Fonts, JavaScript puro
+- Animações com @keyframes e IntersectionObserver
+- Cores como variáveis CSS no :root
+- Arquivo único .html completo e funcional
+
+**Gere o HTML completo, funcional e pronto para publicar. Não use comentários de TODO ou placeholders no código final.**
+
+  ▲ FIM DO PROMPT ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+
+────────────────────────────────────────────────────────────────────────────────
+  LEAD #02 — Dantas Controle de Pragas
+  📞 (61) 99256-9103
+  📍 St. E Norte QNE 18 - Taguatinga, Brasília - DF, 72010-120
+  🔗 https://www.google.com/maps/place/Dantas+Controle+de+Pragas/data=!4m7!3m6!1s0x935a3ae1fec97839:0x24d0e31f9e6bf335!8m2!3d-15.8107263!4d-48.0657588!16s%2Fg%2F11b6hnrt6h!19sChIJOXjJ_uE6WpMRNfNrnh_j0CQ
+────────────────────────────────────────────────────────────────────────────────
+
+  ▼ COPIE O PROMPT ABAIXO ATÉ A LINHA ▲ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
+
+Você é um desenvolvedor web senior e designer especialista em landing pages de alta conversão para prestadores de serviços locais no Brasil. Crie um site completo em HTML, CSS e JavaScript puro (arquivo único) seguindo TODAS as instruções abaixo com precisão.
+
+---
+
+### 🏢 DADOS DA EMPRESA
+
+- **Nome da empresa:** Dantas Controle de Pragas
+- **Segmento / tipo de serviço:** Dedetizadora
+- **Cidade / região de atuação:** Brasília
+- **Número WhatsApp (com DDI):** (61) 99256-9103
+- **Cor primária da marca (hex):** #E21F26
+- **Cor secundária / de apoio (hex):** #1a1a1a
+- **URL da logo:** sem logo
+- **Serviços oferecidos:** Dedetização, Desratização, Descupinização, Sanitização, Controle de pombos, Desinsetização
+- **Diferenciais da empresa:** Atendimento 24h, Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada, Orçamento grátis
+- **Depoimentos de clientes:** (gere 3 depoimentos fictícios verossímeis para o segmento)
+- **CNPJ:** não informado
+- **E-mail:** não informado
+- **Redes sociais:** não informado
+- **Funciona quantas horas / dias?** 24h / 7 dias por semana
+- **Tom de comunicação desejado:** urgente e direto
+
+---
+
+### 🎨 REGRAS DE DESIGN (OBRIGATÓRIAS)
+
+1. **DESIGN ÚNICO E INOVADOR**: O layout deve ser original e visualmente impactante. PROIBIDO usar estruturas genéricas. Escolha UMA direção estética forte e execute com precisão:
+   - Brutalist / Raw (tipografia pesada, contraste extremo, formas cortadas)
+   - Editorial Magazine (assimetria elegante, colunas criativas, espaços generosos)
+   - Dark Luxury (fundo escuro, detalhes dourados ou vibrantes, sofisticação)
+   - Industrial Bold (texturas de metal/concreto, tipografia condensada, badges técnicos)
+   - Organic & Clean (gradientes suaves, formas arredondadas, leveza visual)
+   - Neon Urban (fundo escuro + neon da cor da marca, energia urbana)
+   - Minimalismo Geométrico (linhas precisas, grid rigoroso, espaço em branco proposital)
+
+2. **TIPOGRAFIA DISTINTIVA**: Importe fontes do Google Fonts que combinem com o segmento. PROIBIDO usar Inter, Roboto ou Arial.
+
+3. **PALETA DE CORES**: Use a cor primária da empresa como dominante. Verde WhatsApp (#25D366) APENAS nos botões de contato.
+
+4. **ANIMAÇÕES FUNCIONAIS**: Inclua obrigatoriamente:
+   - Pulsação no botão de WhatsApp principal
+   - Fade-in + slide nos elementos ao rolar a página (IntersectionObserver)
+   - Hover states expressivos nos cards e botões
+   - Contador animado de números
+
+5. **LAYOUT DINÂMICO**: Use pelo menos 2 técnicas de composição avançadas.
+
+---
+
+### 📐 ESTRUTURA OBRIGATÓRIA DO SITE
+
+1. HEADER FIXO com logo, menu desktop e botão WhatsApp
+2. HERO SECTION com H1 "Dedetizadora em Brasília", 2 CTAs e badge de disponibilidade
+3. SEÇÃO DE SERVIÇOS em grid de cards com botão WhatsApp específico por serviço
+4. SEÇÃO "POR QUE NOS ESCOLHER" com diferenciais e contadores animados
+5. DEPOIMENTOS com avatares, estrelas e avaliação média
+6. SEÇÃO DE ORÇAMENTO RÁPIDO com urgência e botão WhatsApp gigante
+7. FAQ com accordion (4-6 perguntas relevantes ao segmento, SEO semântico)
+8. FOOTER completo
+9. BOTÃO FLUTUANTE FIXO do WhatsApp com pulsação
+
+---
+
+### 📱 RESPONSIVIDADE, SEO E WHATSAPP
+
+- Mobile-first, menu hamburger, grid adaptativo
+- Meta tags SEO completas, H1 único, Schema.org LocalBusiness JSON-LD
+- Todos os links WhatsApp com mensagens pré-preenchidas contextuais
+- URL padrão: https://wa.me/5561992569103?text=[mensagem codificada]
+
+---
+
+### ⚙️ TÉCNICO
+
+- HTML5 semântico, Tailwind CSS via CDN, Google Fonts, JavaScript puro
+- Animações com @keyframes e IntersectionObserver
+- Cores como variáveis CSS no :root
+- Arquivo único .html completo e funcional
+
+**Gere o HTML completo, funcional e pronto para publicar. Não use comentários de TODO ou placeholders no código final.**
+
+  ▲ FIM DO PROMPT ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+
+────────────────────────────────────────────────────────────────────────────────
+  LEAD #03 — Aerotek
+  📞 (61) 98577-3975
+  📍 QND, 29 Lote, 20 Sala 101 - Taguatinga Norte, Taguatinga Norte, Brasília - DF, 72120-290
+  🔗 https://www.google.com/maps/place/Aerotek/data=!4m7!3m6!1s0x935a33f64437a401:0xcc70dc2bb378f56f!8m2!3d-15.8086262!4d-48.064913!16s%2Fg%2F11h40_0jgx!19sChIJAaQ3RPYzWpMRb_V4syvccMw
+────────────────────────────────────────────────────────────────────────────────
+
+  ▼ COPIE O PROMPT ABAIXO ATÉ A LINHA ▲ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
+
+Você é um desenvolvedor web senior e designer especialista em landing pages de alta conversão para prestadores de serviços locais no Brasil. Crie um site completo em HTML, CSS e JavaScript puro (arquivo único) seguindo TODAS as instruções abaixo com precisão.
+
+---
+
+### 🏢 DADOS DA EMPRESA
+
+- **Nome da empresa:** Aerotek
+- **Segmento / tipo de serviço:** Dedetizadora
+- **Cidade / região de atuação:** Brasília
+- **Número WhatsApp (com DDI):** (61) 98577-3975
+- **Cor primária da marca (hex):** #E21F26
+- **Cor secundária / de apoio (hex):** #1a1a1a
+- **URL da logo:** sem logo
+- **Serviços oferecidos:** Dedetização, Desratização, Descupinização, Sanitização, Controle de pombos, Desinsetização
+- **Diferenciais da empresa:** Atendimento 24h, Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada, Orçamento grátis
+- **Depoimentos de clientes:** (gere 3 depoimentos fictícios verossímeis para o segmento)
+- **CNPJ:** não informado
+- **E-mail:** não informado
+- **Redes sociais:** não informado
+- **Funciona quantas horas / dias?** 24h / 7 dias por semana
+- **Tom de comunicação desejado:** urgente e direto
+
+---
+
+### 🎨 REGRAS DE DESIGN (OBRIGATÓRIAS)
+
+1. **DESIGN ÚNICO E INOVADOR**: O layout deve ser original e visualmente impactante. PROIBIDO usar estruturas genéricas. Escolha UMA direção estética forte e execute com precisão:
+   - Brutalist / Raw (tipografia pesada, contraste extremo, formas cortadas)
+   - Editorial Magazine (assimetria elegante, colunas criativas, espaços generosos)
+   - Dark Luxury (fundo escuro, detalhes dourados ou vibrantes, sofisticação)
+   - Industrial Bold (texturas de metal/concreto, tipografia condensada, badges técnicos)
+   - Organic & Clean (gradientes suaves, formas arredondadas, leveza visual)
+   - Neon Urban (fundo escuro + neon da cor da marca, energia urbana)
+   - Minimalismo Geométrico (linhas precisas, grid rigoroso, espaço em branco proposital)
+
+2. **TIPOGRAFIA DISTINTIVA**: Importe fontes do Google Fonts que combinem com o segmento. PROIBIDO usar Inter, Roboto ou Arial.
+
+3. **PALETA DE CORES**: Use a cor primária da empresa como dominante. Verde WhatsApp (#25D366) APENAS nos botões de contato.
+
+4. **ANIMAÇÕES FUNCIONAIS**: Inclua obrigatoriamente:
+   - Pulsação no botão de WhatsApp principal
+   - Fade-in + slide nos elementos ao rolar a página (IntersectionObserver)
+   - Hover states expressivos nos cards e botões
+   - Contador animado de números
+
+5. **LAYOUT DINÂMICO**: Use pelo menos 2 técnicas de composição avançadas.
+
+---
+
+### 📐 ESTRUTURA OBRIGATÓRIA DO SITE
+
+1. HEADER FIXO com logo, menu desktop e botão WhatsApp
+2. HERO SECTION com H1 "Dedetizadora em Brasília", 2 CTAs e badge de disponibilidade
+3. SEÇÃO DE SERVIÇOS em grid de cards com botão WhatsApp específico por serviço
+4. SEÇÃO "POR QUE NOS ESCOLHER" com diferenciais e contadores animados
+5. DEPOIMENTOS com avatares, estrelas e avaliação média
+6. SEÇÃO DE ORÇAMENTO RÁPIDO com urgência e botão WhatsApp gigante
+7. FAQ com accordion (4-6 perguntas relevantes ao segmento, SEO semântico)
+8. FOOTER completo
+9. BOTÃO FLUTUANTE FIXO do WhatsApp com pulsação
+
+---
+
+### 📱 RESPONSIVIDADE, SEO E WHATSAPP
+
+- Mobile-first, menu hamburger, grid adaptativo
+- Meta tags SEO completas, H1 único, Schema.org LocalBusiness JSON-LD
+- Todos os links WhatsApp com mensagens pré-preenchidas contextuais
+- URL padrão: https://wa.me/5561985773975?text=[mensagem codificada]
+
+---
+
+### ⚙️ TÉCNICO
+
+- HTML5 semântico, Tailwind CSS via CDN, Google Fonts, JavaScript puro
+- Animações com @keyframes e IntersectionObserver
+- Cores como variáveis CSS no :root
+- Arquivo único .html completo e funcional
+
+**Gere o HTML completo, funcional e pronto para publicar. Não use comentários de TODO ou placeholders no código final.**
+
+  ▲ FIM DO PROMPT ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+
+────────────────────────────────────────────────────────────────────────────────
+  LEAD #04 — Ratintox Dedetizadora
+  📞 (61) 99559-4796
+  📍 St. Sudoeste Q. Res. Sudoeste 7/8 - Sudoeste/Octogonal, Brasília - DF, 70640-543
+  🔗 https://www.google.com/maps/place/Ratintox+Dedetizadora/data=!4m7!3m6!1s0x935a3085a6fe5ccd:0x97b2364aeae8c270!8m2!3d-15.7836982!4d-47.9299759!16s%2Fg%2F11b6j73410!19sChIJzVz-poUwWpMRcMLo6ko2spc
+────────────────────────────────────────────────────────────────────────────────
+
+  ▼ COPIE O PROMPT ABAIXO ATÉ A LINHA ▲ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
+
+Você é um desenvolvedor web senior e designer especialista em landing pages de alta conversão para prestadores de serviços locais no Brasil. Crie um site completo em HTML, CSS e JavaScript puro (arquivo único) seguindo TODAS as instruções abaixo com precisão.
+
+---
+
+### 🏢 DADOS DA EMPRESA
+
+- **Nome da empresa:** Ratintox Dedetizadora
+- **Segmento / tipo de serviço:** Dedetizadora
+- **Cidade / região de atuação:** Brasília
+- **Número WhatsApp (com DDI):** (61) 99559-4796
+- **Cor primária da marca (hex):** #E21F26
+- **Cor secundária / de apoio (hex):** #1a1a1a
+- **URL da logo:** sem logo
+- **Serviços oferecidos:** Dedetização, Desratização, Descupinização, Sanitização, Controle de pombos, Desinsetização
+- **Diferenciais da empresa:** Atendimento 24h, Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada, Orçamento grátis
+- **Depoimentos de clientes:** (gere 3 depoimentos fictícios verossímeis para o segmento)
+- **CNPJ:** não informado
+- **E-mail:** não informado
+- **Redes sociais:** não informado
+- **Funciona quantas horas / dias?** 24h / 7 dias por semana
+- **Tom de comunicação desejado:** urgente e direto
+
+---
+
+### 🎨 REGRAS DE DESIGN (OBRIGATÓRIAS)
+
+1. **DESIGN ÚNICO E INOVADOR**: O layout deve ser original e visualmente impactante. PROIBIDO usar estruturas genéricas. Escolha UMA direção estética forte e execute com precisão:
+   - Brutalist / Raw (tipografia pesada, contraste extremo, formas cortadas)
+   - Editorial Magazine (assimetria elegante, colunas criativas, espaços generosos)
+   - Dark Luxury (fundo escuro, detalhes dourados ou vibrantes, sofisticação)
+   - Industrial Bold (texturas de metal/concreto, tipografia condensada, badges técnicos)
+   - Organic & Clean (gradientes suaves, formas arredondadas, leveza visual)
+   - Neon Urban (fundo escuro + neon da cor da marca, energia urbana)
+   - Minimalismo Geométrico (linhas precisas, grid rigoroso, espaço em branco proposital)
+
+2. **TIPOGRAFIA DISTINTIVA**: Importe fontes do Google Fonts que combinem com o segmento. PROIBIDO usar Inter, Roboto ou Arial.
+
+3. **PALETA DE CORES**: Use a cor primária da empresa como dominante. Verde WhatsApp (#25D366) APENAS nos botões de contato.
+
+4. **ANIMAÇÕES FUNCIONAIS**: Inclua obrigatoriamente:
+   - Pulsação no botão de WhatsApp principal
+   - Fade-in + slide nos elementos ao rolar a página (IntersectionObserver)
+   - Hover states expressivos nos cards e botões
+   - Contador animado de números
+
+5. **LAYOUT DINÂMICO**: Use pelo menos 2 técnicas de composição avançadas.
+
+---
+
+### 📐 ESTRUTURA OBRIGATÓRIA DO SITE
+
+1. HEADER FIXO com logo, menu desktop e botão WhatsApp
+2. HERO SECTION com H1 "Dedetizadora em Brasília", 2 CTAs e badge de disponibilidade
+3. SEÇÃO DE SERVIÇOS em grid de cards com botão WhatsApp específico por serviço
+4. SEÇÃO "POR QUE NOS ESCOLHER" com diferenciais e contadores animados
+5. DEPOIMENTOS com avatares, estrelas e avaliação média
+6. SEÇÃO DE ORÇAMENTO RÁPIDO com urgência e botão WhatsApp gigante
+7. FAQ com accordion (4-6 perguntas relevantes ao segmento, SEO semântico)
+8. FOOTER completo
+9. BOTÃO FLUTUANTE FIXO do WhatsApp com pulsação
+
+---
+
+### 📱 RESPONSIVIDADE, SEO E WHATSAPP
+
+- Mobile-first, menu hamburger, grid adaptativo
+- Meta tags SEO completas, H1 único, Schema.org LocalBusiness JSON-LD
+- Todos os links WhatsApp com mensagens pré-preenchidas contextuais
+- URL padrão: https://wa.me/5561995594796?text=[mensagem codificada]
+
+---
+
+### ⚙️ TÉCNICO
+
+- HTML5 semântico, Tailwind CSS via CDN, Google Fonts, JavaScript puro
+- Animações com @keyframes e IntersectionObserver
+- Cores como variáveis CSS no :root
+- Arquivo único .html completo e funcional
+
+**Gere o HTML completo, funcional e pronto para publicar. Não use comentários de TODO ou placeholders no código final.**
+
+  ▲ FIM DO PROMPT ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+
+────────────────────────────────────────────────────────────────────────────────
+  LEAD #05 — P7 Service | Controle de Pragas | Dedetizadora
+  📞 (61) 99269-2235
+  📍 PqEAT Conj. P Lote 02 Loja 02 - Fazendinha, Brasília - DF, 71596-268
+  🔗 https://www.google.com/maps/place/P7+Service+%7C+Controle+de+Pragas+%7C+Dedetizadora/data=!4m7!3m6!1s0x935a397b89af94ff:0x88e32102330d7b0d!8m2!3d-15.7086966!4d-47.9143695!16s%2Fg%2F11vwm9bb8n!19sChIJ_5SviXs5WpMRDXsNMwIh44g
+────────────────────────────────────────────────────────────────────────────────
+
+  ▼ COPIE O PROMPT ABAIXO ATÉ A LINHA ▲ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
+
+Você é um desenvolvedor web senior e designer especialista em landing pages de alta conversão para prestadores de serviços locais no Brasil. Crie um site completo em HTML, CSS e JavaScript puro (arquivo único) seguindo TODAS as instruções abaixo com precisão.
+
+---
+
+### 🏢 DADOS DA EMPRESA
+
+- **Nome da empresa:** P7 Service | Controle de Pragas | Dedetizadora
+- **Segmento / tipo de serviço:** Dedetizadora
+- **Cidade / região de atuação:** Brasília
+- **Número WhatsApp (com DDI):** (61) 99269-2235
+- **Cor primária da marca (hex):** #E21F26
+- **Cor secundária / de apoio (hex):** #1a1a1a
+- **URL da logo:** sem logo
+- **Serviços oferecidos:** Dedetização, Desratização, Descupinização, Sanitização, Controle de pombos, Desinsetização
+- **Diferenciais da empresa:** Atendimento 24h, Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada, Orçamento grátis
+- **Depoimentos de clientes:** (gere 3 depoimentos fictícios verossímeis para o segmento)
+- **CNPJ:** não informado
+- **E-mail:** não informado
+- **Redes sociais:** não informado
+- **Funciona quantas horas / dias?** 24h / 7 dias por semana
+- **Tom de comunicação desejado:** urgente e direto
+
+---
+
+### 🎨 REGRAS DE DESIGN (OBRIGATÓRIAS)
+
+1. **DESIGN ÚNICO E INOVADOR**: O layout deve ser original e visualmente impactante. PROIBIDO usar estruturas genéricas. Escolha UMA direção estética forte e execute com precisão:
+   - Brutalist / Raw (tipografia pesada, contraste extremo, formas cortadas)
+   - Editorial Magazine (assimetria elegante, colunas criativas, espaços generosos)
+   - Dark Luxury (fundo escuro, detalhes dourados ou vibrantes, sofisticação)
+   - Industrial Bold (texturas de metal/concreto, tipografia condensada, badges técnicos)
+   - Organic & Clean (gradientes suaves, formas arredondadas, leveza visual)
+   - Neon Urban (fundo escuro + neon da cor da marca, energia urbana)
+   - Minimalismo Geométrico (linhas precisas, grid rigoroso, espaço em branco proposital)
+
+2. **TIPOGRAFIA DISTINTIVA**: Importe fontes do Google Fonts que combinem com o segmento. PROIBIDO usar Inter, Roboto ou Arial.
+
+3. **PALETA DE CORES**: Use a cor primária da empresa como dominante. Verde WhatsApp (#25D366) APENAS nos botões de contato.
+
+4. **ANIMAÇÕES FUNCIONAIS**: Inclua obrigatoriamente:
+   - Pulsação no botão de WhatsApp principal
+   - Fade-in + slide nos elementos ao rolar a página (IntersectionObserver)
+   - Hover states expressivos nos cards e botões
+   - Contador animado de números
+
+5. **LAYOUT DINÂMICO**: Use pelo menos 2 técnicas de composição avançadas.
+
+---
+
+### 📐 ESTRUTURA OBRIGATÓRIA DO SITE
+
+1. HEADER FIXO com logo, menu desktop e botão WhatsApp
+2. HERO SECTION com H1 "Dedetizadora em Brasília", 2 CTAs e badge de disponibilidade
+3. SEÇÃO DE SERVIÇOS em grid de cards com botão WhatsApp específico por serviço
+4. SEÇÃO "POR QUE NOS ESCOLHER" com diferenciais e contadores animados
+5. DEPOIMENTOS com avatares, estrelas e avaliação média
+6. SEÇÃO DE ORÇAMENTO RÁPIDO com urgência e botão WhatsApp gigante
+7. FAQ com accordion (4-6 perguntas relevantes ao segmento, SEO semântico)
+8. FOOTER completo
+9. BOTÃO FLUTUANTE FIXO do WhatsApp com pulsação
+
+---
+
+### 📱 RESPONSIVIDADE, SEO E WHATSAPP
+
+- Mobile-first, menu hamburger, grid adaptativo
+- Meta tags SEO completas, H1 único, Schema.org LocalBusiness JSON-LD
+- Todos os links WhatsApp com mensagens pré-preenchidas contextuais
+- URL padrão: https://wa.me/5561992692235?text=[mensagem codificada]
+
+---
+
+### ⚙️ TÉCNICO
+
+- HTML5 semântico, Tailwind CSS via CDN, Google Fonts, JavaScript puro
+- Animações com @keyframes e IntersectionObserver
+- Cores como variáveis CSS no :root
+- Arquivo único .html completo e funcional
+
+**Gere o HTML completo, funcional e pronto para publicar. Não use comentários de TODO ou placeholders no código final.**
+
+  ▲ FIM DO PROMPT ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+
+────────────────────────────────────────────────────────────────────────────────
+  LEAD #06 — Matinsetobsb
+  📞 (61) 98186-8000
+  📍 José Ricardo Res. - Al. dos Eucaliptos Q. 107, Quadra 107 - Águas Claras, Brasília - DF, 71920-010
+  🔗 https://www.google.com/maps/place/Matinsetobsb/data=!4m7!3m6!1s0x935a335cc45b380b:0xc7c09419494268b6!8m2!3d-15.8296791!4d-48.0327253!16s%2Fg%2F11j6dtchmv!19sChIJCzhbxFwzWpMRtmhCSRmUwMc
+────────────────────────────────────────────────────────────────────────────────
+
+  ▼ COPIE O PROMPT ABAIXO ATÉ A LINHA ▲ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
+
+Você é um desenvolvedor web senior e designer especialista em landing pages de alta conversão para prestadores de serviços locais no Brasil. Crie um site completo em HTML, CSS e JavaScript puro (arquivo único) seguindo TODAS as instruções abaixo com precisão.
+
+---
+
+### 🏢 DADOS DA EMPRESA
+
+- **Nome da empresa:** Matinsetobsb
+- **Segmento / tipo de serviço:** Dedetizadora
+- **Cidade / região de atuação:** Brasília
+- **Número WhatsApp (com DDI):** (61) 98186-8000
+- **Cor primária da marca (hex):** #E21F26
+- **Cor secundária / de apoio (hex):** #1a1a1a
+- **URL da logo:** sem logo
+- **Serviços oferecidos:** Dedetização, Desratização, Descupinização, Sanitização, Controle de pombos, Desinsetização
+- **Diferenciais da empresa:** Atendimento 24h, Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada, Orçamento grátis
+- **Depoimentos de clientes:** (gere 3 depoimentos fictícios verossímeis para o segmento)
+- **CNPJ:** não informado
+- **E-mail:** não informado
+- **Redes sociais:** não informado
+- **Funciona quantas horas / dias?** 24h / 7 dias por semana
+- **Tom de comunicação desejado:** urgente e direto
+
+---
+
+### 🎨 REGRAS DE DESIGN (OBRIGATÓRIAS)
+
+1. **DESIGN ÚNICO E INOVADOR**: O layout deve ser original e visualmente impactante. PROIBIDO usar estruturas genéricas. Escolha UMA direção estética forte e execute com precisão:
+   - Brutalist / Raw (tipografia pesada, contraste extremo, formas cortadas)
+   - Editorial Magazine (assimetria elegante, colunas criativas, espaços generosos)
+   - Dark Luxury (fundo escuro, detalhes dourados ou vibrantes, sofisticação)
+   - Industrial Bold (texturas de metal/concreto, tipografia condensada, badges técnicos)
+   - Organic & Clean (gradientes suaves, formas arredondadas, leveza visual)
+   - Neon Urban (fundo escuro + neon da cor da marca, energia urbana)
+   - Minimalismo Geométrico (linhas precisas, grid rigoroso, espaço em branco proposital)
+
+2. **TIPOGRAFIA DISTINTIVA**: Importe fontes do Google Fonts que combinem com o segmento. PROIBIDO usar Inter, Roboto ou Arial.
+
+3. **PALETA DE CORES**: Use a cor primária da empresa como dominante. Verde WhatsApp (#25D366) APENAS nos botões de contato.
+
+4. **ANIMAÇÕES FUNCIONAIS**: Inclua obrigatoriamente:
+   - Pulsação no botão de WhatsApp principal
+   - Fade-in + slide nos elementos ao rolar a página (IntersectionObserver)
+   - Hover states expressivos nos cards e botões
+   - Contador animado de números
+
+5. **LAYOUT DINÂMICO**: Use pelo menos 2 técnicas de composição avançadas.
+
+---
+
+### 📐 ESTRUTURA OBRIGATÓRIA DO SITE
+
+1. HEADER FIXO com logo, menu desktop e botão WhatsApp
+2. HERO SECTION com H1 "Dedetizadora em Brasília", 2 CTAs e badge de disponibilidade
+3. SEÇÃO DE SERVIÇOS em grid de cards com botão WhatsApp específico por serviço
+4. SEÇÃO "POR QUE NOS ESCOLHER" com diferenciais e contadores animados
+5. DEPOIMENTOS com avatares, estrelas e avaliação média
+6. SEÇÃO DE ORÇAMENTO RÁPIDO com urgência e botão WhatsApp gigante
+7. FAQ com accordion (4-6 perguntas relevantes ao segmento, SEO semântico)
+8. FOOTER completo
+9. BOTÃO FLUTUANTE FIXO do WhatsApp com pulsação
+
+---
+
+### 📱 RESPONSIVIDADE, SEO E WHATSAPP
+
+- Mobile-first, menu hamburger, grid adaptativo
+- Meta tags SEO completas, H1 único, Schema.org LocalBusiness JSON-LD
+- Todos os links WhatsApp com mensagens pré-preenchidas contextuais
+- URL padrão: https://wa.me/5561981868000?text=[mensagem codificada]
+
+---
+
+### ⚙️ TÉCNICO
+
+- HTML5 semântico, Tailwind CSS via CDN, Google Fonts, JavaScript puro
+- Animações com @keyframes e IntersectionObserver
+- Cores como variáveis CSS no :root
+- Arquivo único .html completo e funcional
+
+**Gere o HTML completo, funcional e pronto para publicar. Não use comentários de TODO ou placeholders no código final.**
+
+  ▲ FIM DO PROMPT ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+
+────────────────────────────────────────────────────────────────────────────────
+  LEAD #07 — Stop dedetizadora
+  📞 (61) 98440-4680
+  📍 Csb 07 lote 03 loja 715, Brasília - DF, 72015-575
+  🔗 https://www.google.com/maps/place/Stop+dedetizadora/data=!4m7!3m6!1s0x935a33fef14bda63:0xc1b95228117bac46!8m2!3d-15.8403659!4d-48.0514793!16s%2Fg%2F11gy5_l83q!19sChIJY9pL8f4zWpMRRqx7EShSucE
+────────────────────────────────────────────────────────────────────────────────
+
+  ▼ COPIE O PROMPT ABAIXO ATÉ A LINHA ▲ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
+
+Você é um desenvolvedor web senior e designer especialista em landing pages de alta conversão para prestadores de serviços locais no Brasil. Crie um site completo em HTML, CSS e JavaScript puro (arquivo único) seguindo TODAS as instruções abaixo com precisão.
+
+---
+
+### 🏢 DADOS DA EMPRESA
+
+- **Nome da empresa:** Stop dedetizadora
+- **Segmento / tipo de serviço:** Dedetizadora
+- **Cidade / região de atuação:** Brasília
+- **Número WhatsApp (com DDI):** (61) 98440-4680
+- **Cor primária da marca (hex):** #E21F26
+- **Cor secundária / de apoio (hex):** #1a1a1a
+- **URL da logo:** sem logo
+- **Serviços oferecidos:** Dedetização, Desratização, Descupinização, Sanitização, Controle de pombos, Desinsetização
+- **Diferenciais da empresa:** Atendimento 24h, Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada, Orçamento grátis
+- **Depoimentos de clientes:** (gere 3 depoimentos fictícios verossímeis para o segmento)
+- **CNPJ:** não informado
+- **E-mail:** não informado
+- **Redes sociais:** não informado
+- **Funciona quantas horas / dias?** 24h / 7 dias por semana
+- **Tom de comunicação desejado:** urgente e direto
+
+---
+
+### 🎨 REGRAS DE DESIGN (OBRIGATÓRIAS)
+
+1. **DESIGN ÚNICO E INOVADOR**: O layout deve ser original e visualmente impactante. PROIBIDO usar estruturas genéricas. Escolha UMA direção estética forte e execute com precisão:
+   - Brutalist / Raw (tipografia pesada, contraste extremo, formas cortadas)
+   - Editorial Magazine (assimetria elegante, colunas criativas, espaços generosos)
+   - Dark Luxury (fundo escuro, detalhes dourados ou vibrantes, sofisticação)
+   - Industrial Bold (texturas de metal/concreto, tipografia condensada, badges técnicos)
+   - Organic & Clean (gradientes suaves, formas arredondadas, leveza visual)
+   - Neon Urban (fundo escuro + neon da cor da marca, energia urbana)
+   - Minimalismo Geométrico (linhas precisas, grid rigoroso, espaço em branco proposital)
+
+2. **TIPOGRAFIA DISTINTIVA**: Importe fontes do Google Fonts que combinem com o segmento. PROIBIDO usar Inter, Roboto ou Arial.
+
+3. **PALETA DE CORES**: Use a cor primária da empresa como dominante. Verde WhatsApp (#25D366) APENAS nos botões de contato.
+
+4. **ANIMAÇÕES FUNCIONAIS**: Inclua obrigatoriamente:
+   - Pulsação no botão de WhatsApp principal
+   - Fade-in + slide nos elementos ao rolar a página (IntersectionObserver)
+   - Hover states expressivos nos cards e botões
+   - Contador animado de números
+
+5. **LAYOUT DINÂMICO**: Use pelo menos 2 técnicas de composição avançadas.
+
+---
+
+### 📐 ESTRUTURA OBRIGATÓRIA DO SITE
+
+1. HEADER FIXO com logo, menu desktop e botão WhatsApp
+2. HERO SECTION com H1 "Dedetizadora em Brasília", 2 CTAs e badge de disponibilidade
+3. SEÇÃO DE SERVIÇOS em grid de cards com botão WhatsApp específico por serviço
+4. SEÇÃO "POR QUE NOS ESCOLHER" com diferenciais e contadores animados
+5. DEPOIMENTOS com avatares, estrelas e avaliação média
+6. SEÇÃO DE ORÇAMENTO RÁPIDO com urgência e botão WhatsApp gigante
+7. FAQ com accordion (4-6 perguntas relevantes ao segmento, SEO semântico)
+8. FOOTER completo
+9. BOTÃO FLUTUANTE FIXO do WhatsApp com pulsação
+
+---
+
+### 📱 RESPONSIVIDADE, SEO E WHATSAPP
+
+- Mobile-first, menu hamburger, grid adaptativo
+- Meta tags SEO completas, H1 único, Schema.org LocalBusiness JSON-LD
+- Todos os links WhatsApp com mensagens pré-preenchidas contextuais
+- URL padrão: https://wa.me/5561984404680?text=[mensagem codificada]
+
+---
+
+### ⚙️ TÉCNICO
+
+- HTML5 semântico, Tailwind CSS via CDN, Google Fonts, JavaScript puro
+- Animações com @keyframes e IntersectionObserver
+- Cores como variáveis CSS no :root
+- Arquivo único .html completo e funcional
+
+**Gere o HTML completo, funcional e pronto para publicar. Não use comentários de TODO ou placeholders no código final.**
+
+  ▲ FIM DO PROMPT ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+
+────────────────────────────────────────────────────────────────────────────────
+  LEAD #08 — Proclean soluções e serviços
+  📞 (61) 99264-1085
+  📍 Endereço não informado
+  🔗 https://www.google.com/maps/place/Proclean+solu%C3%A7%C3%B5es+e+servi%C3%A7os/data=!4m7!3m6!1s0x28b54b70ae6f7553:0x13820e2e0281ae5b!8m2!3d-15.7215488!4d-47.9373578!16s%2Fg%2F11yfyh3cvr!19sChIJU3VvrnBLtSgRW66BAi4OghM
+────────────────────────────────────────────────────────────────────────────────
+
+  ▼ COPIE O PROMPT ABAIXO ATÉ A LINHA ▲ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
+
+Você é um desenvolvedor web senior e designer especialista em landing pages de alta conversão para prestadores de serviços locais no Brasil. Crie um site completo em HTML, CSS e JavaScript puro (arquivo único) seguindo TODAS as instruções abaixo com precisão.
+
+---
+
+### 🏢 DADOS DA EMPRESA
+
+- **Nome da empresa:** Proclean soluções e serviços
+- **Segmento / tipo de serviço:** Dedetizadora
+- **Cidade / região de atuação:** Brasília
+- **Número WhatsApp (com DDI):** (61) 99264-1085
+- **Cor primária da marca (hex):** #E21F26
+- **Cor secundária / de apoio (hex):** #1a1a1a
+- **URL da logo:** sem logo
+- **Serviços oferecidos:** Dedetização, Desratização, Descupinização, Sanitização, Controle de pombos, Desinsetização
+- **Diferenciais da empresa:** Atendimento 24h, Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada, Orçamento grátis
+- **Depoimentos de clientes:** (gere 3 depoimentos fictícios verossímeis para o segmento)
+- **CNPJ:** não informado
+- **E-mail:** não informado
+- **Redes sociais:** não informado
+- **Funciona quantas horas / dias?** 24h / 7 dias por semana
+- **Tom de comunicação desejado:** urgente e direto
+
+---
+
+### 🎨 REGRAS DE DESIGN (OBRIGATÓRIAS)
+
+1. **DESIGN ÚNICO E INOVADOR**: O layout deve ser original e visualmente impactante. PROIBIDO usar estruturas genéricas. Escolha UMA direção estética forte e execute com precisão:
+   - Brutalist / Raw (tipografia pesada, contraste extremo, formas cortadas)
+   - Editorial Magazine (assimetria elegante, colunas criativas, espaços generosos)
+   - Dark Luxury (fundo escuro, detalhes dourados ou vibrantes, sofisticação)
+   - Industrial Bold (texturas de metal/concreto, tipografia condensada, badges técnicos)
+   - Organic & Clean (gradientes suaves, formas arredondadas, leveza visual)
+   - Neon Urban (fundo escuro + neon da cor da marca, energia urbana)
+   - Minimalismo Geométrico (linhas precisas, grid rigoroso, espaço em branco proposital)
+
+2. **TIPOGRAFIA DISTINTIVA**: Importe fontes do Google Fonts que combinem com o segmento. PROIBIDO usar Inter, Roboto ou Arial.
+
+3. **PALETA DE CORES**: Use a cor primária da empresa como dominante. Verde WhatsApp (#25D366) APENAS nos botões de contato.
+
+4. **ANIMAÇÕES FUNCIONAIS**: Inclua obrigatoriamente:
+   - Pulsação no botão de WhatsApp principal
+   - Fade-in + slide nos elementos ao rolar a página (IntersectionObserver)
+   - Hover states expressivos nos cards e botões
+   - Contador animado de números
+
+5. **LAYOUT DINÂMICO**: Use pelo menos 2 técnicas de composição avançadas.
+
+---
+
+### 📐 ESTRUTURA OBRIGATÓRIA DO SITE
+
+1. HEADER FIXO com logo, menu desktop e botão WhatsApp
+2. HERO SECTION com H1 "Dedetizadora em Brasília", 2 CTAs e badge de disponibilidade
+3. SEÇÃO DE SERVIÇOS em grid de cards com botão WhatsApp específico por serviço
+4. SEÇÃO "POR QUE NOS ESCOLHER" com diferenciais e contadores animados
+5. DEPOIMENTOS com avatares, estrelas e avaliação média
+6. SEÇÃO DE ORÇAMENTO RÁPIDO com urgência e botão WhatsApp gigante
+7. FAQ com accordion (4-6 perguntas relevantes ao segmento, SEO semântico)
+8. FOOTER completo
+9. BOTÃO FLUTUANTE FIXO do WhatsApp com pulsação
+
+---
+
+### 📱 RESPONSIVIDADE, SEO E WHATSAPP
+
+- Mobile-first, menu hamburger, grid adaptativo
+- Meta tags SEO completas, H1 único, Schema.org LocalBusiness JSON-LD
+- Todos os links WhatsApp com mensagens pré-preenchidas contextuais
+- URL padrão: https://wa.me/5561992641085?text=[mensagem codificada]
+
+---
+
+### ⚙️ TÉCNICO
+
+- HTML5 semântico, Tailwind CSS via CDN, Google Fonts, JavaScript puro
+- Animações com @keyframes e IntersectionObserver
+- Cores como variáveis CSS no :root
+- Arquivo único .html completo e funcional
+
+**Gere o HTML completo, funcional e pronto para publicar. Não use comentários de TODO ou placeholders no código final.**
+
+  ▲ FIM DO PROMPT ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+
+────────────────────────────────────────────────────────────────────────────────
+  LEAD #09 — Clean Premiere Dedetizadora
+  📞 (61) 99607-8194
+  📍 St. A Norte QNA 14 Lote 04b - Taguatinga, Brasília - DF, 72110-140
+  🔗 https://www.google.com/maps/place/Clean+Premiere+Dedetizadora/data=!4m7!3m6!1s0x935a33eada522bcf:0x8b0ad4d530a770d8!8m2!3d-15.8281733!4d-48.0539889!16s%2Fg%2F11x7n4br30!19sChIJzytS2uozWpMR2HCnMNXUCos
+────────────────────────────────────────────────────────────────────────────────
+
+  ▼ COPIE O PROMPT ABAIXO ATÉ A LINHA ▲ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
+
+Você é um desenvolvedor web senior e designer especialista em landing pages de alta conversão para prestadores de serviços locais no Brasil. Crie um site completo em HTML, CSS e JavaScript puro (arquivo único) seguindo TODAS as instruções abaixo com precisão.
+
+---
+
+### 🏢 DADOS DA EMPRESA
+
+- **Nome da empresa:** Clean Premiere Dedetizadora
+- **Segmento / tipo de serviço:** Dedetizadora
+- **Cidade / região de atuação:** Brasília
+- **Número WhatsApp (com DDI):** (61) 99607-8194
+- **Cor primária da marca (hex):** #E21F26
+- **Cor secundária / de apoio (hex):** #1a1a1a
+- **URL da logo:** sem logo
+- **Serviços oferecidos:** Dedetização, Desratização, Descupinização, Sanitização, Controle de pombos, Desinsetização
+- **Diferenciais da empresa:** Atendimento 24h, Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada, Orçamento grátis
+- **Depoimentos de clientes:** (gere 3 depoimentos fictícios verossímeis para o segmento)
+- **CNPJ:** não informado
+- **E-mail:** não informado
+- **Redes sociais:** não informado
+- **Funciona quantas horas / dias?** 24h / 7 dias por semana
+- **Tom de comunicação desejado:** urgente e direto
+
+---
+
+### 🎨 REGRAS DE DESIGN (OBRIGATÓRIAS)
+
+1. **DESIGN ÚNICO E INOVADOR**: O layout deve ser original e visualmente impactante. PROIBIDO usar estruturas genéricas. Escolha UMA direção estética forte e execute com precisão:
+   - Brutalist / Raw (tipografia pesada, contraste extremo, formas cortadas)
+   - Editorial Magazine (assimetria elegante, colunas criativas, espaços generosos)
+   - Dark Luxury (fundo escuro, detalhes dourados ou vibrantes, sofisticação)
+   - Industrial Bold (texturas de metal/concreto, tipografia condensada, badges técnicos)
+   - Organic & Clean (gradientes suaves, formas arredondadas, leveza visual)
+   - Neon Urban (fundo escuro + neon da cor da marca, energia urbana)
+   - Minimalismo Geométrico (linhas precisas, grid rigoroso, espaço em branco proposital)
+
+2. **TIPOGRAFIA DISTINTIVA**: Importe fontes do Google Fonts que combinem com o segmento. PROIBIDO usar Inter, Roboto ou Arial.
+
+3. **PALETA DE CORES**: Use a cor primária da empresa como dominante. Verde WhatsApp (#25D366) APENAS nos botões de contato.
+
+4. **ANIMAÇÕES FUNCIONAIS**: Inclua obrigatoriamente:
+   - Pulsação no botão de WhatsApp principal
+   - Fade-in + slide nos elementos ao rolar a página (IntersectionObserver)
+   - Hover states expressivos nos cards e botões
+   - Contador animado de números
+
+5. **LAYOUT DINÂMICO**: Use pelo menos 2 técnicas de composição avançadas.
+
+---
+
+### 📐 ESTRUTURA OBRIGATÓRIA DO SITE
+
+1. HEADER FIXO com logo, menu desktop e botão WhatsApp
+2. HERO SECTION com H1 "Dedetizadora em Brasília", 2 CTAs e badge de disponibilidade
+3. SEÇÃO DE SERVIÇOS em grid de cards com botão WhatsApp específico por serviço
+4. SEÇÃO "POR QUE NOS ESCOLHER" com diferenciais e contadores animados
+5. DEPOIMENTOS com avatares, estrelas e avaliação média
+6. SEÇÃO DE ORÇAMENTO RÁPIDO com urgência e botão WhatsApp gigante
+7. FAQ com accordion (4-6 perguntas relevantes ao segmento, SEO semântico)
+8. FOOTER completo
+9. BOTÃO FLUTUANTE FIXO do WhatsApp com pulsação
+
+---
+
+### 📱 RESPONSIVIDADE, SEO E WHATSAPP
+
+- Mobile-first, menu hamburger, grid adaptativo
+- Meta tags SEO completas, H1 único, Schema.org LocalBusiness JSON-LD
+- Todos os links WhatsApp com mensagens pré-preenchidas contextuais
+- URL padrão: https://wa.me/5561996078194?text=[mensagem codificada]
+
+---
+
+### ⚙️ TÉCNICO
+
+- HTML5 semântico, Tailwind CSS via CDN, Google Fonts, JavaScript puro
+- Animações com @keyframes e IntersectionObserver
+- Cores como variáveis CSS no :root
+- Arquivo único .html completo e funcional
+
+**Gere o HTML completo, funcional e pronto para publicar. Não use comentários de TODO ou placeholders no código final.**
+
+  ▲ FIM DO PROMPT ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+
+────────────────────────────────────────────────────────────────────────────────
+  LEAD #10 — Original Dedetizadora e Sanitizadora
+  📞 (61) 98499-2752
+  📍 SRE CL BLOCO D LOTE 01 ENTRADA 2, SALA 03 - Cruzeiro Velho, Brasília - DF, 70640-545
+  🔗 https://www.google.com/maps/place/Original+Dedetizadora+e+Sanitizadora/data=!4m7!3m6!1s0x935a31a7d54300eb:0x2c5278442660ec4e!8m2!3d-15.7871814!4d-47.9402271!16s%2Fg%2F11ff54ps9q!19sChIJ6wBD1acxWpMRTuxgJkR4Uiw
+────────────────────────────────────────────────────────────────────────────────
+
+  ▼ COPIE O PROMPT ABAIXO ATÉ A LINHA ▲ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
+
+Você é um desenvolvedor web senior e designer especialista em landing pages de alta conversão para prestadores de serviços locais no Brasil. Crie um site completo em HTML, CSS e JavaScript puro (arquivo único) seguindo TODAS as instruções abaixo com precisão.
+
+---
+
+### 🏢 DADOS DA EMPRESA
+
+- **Nome da empresa:** Original Dedetizadora e Sanitizadora
+- **Segmento / tipo de serviço:** Dedetizadora
+- **Cidade / região de atuação:** Brasília
+- **Número WhatsApp (com DDI):** (61) 98499-2752
+- **Cor primária da marca (hex):** #E21F26
+- **Cor secundária / de apoio (hex):** #1a1a1a
+- **URL da logo:** sem logo
+- **Serviços oferecidos:** Dedetização, Desratização, Descupinização, Sanitização, Controle de pombos, Desinsetização
+- **Diferenciais da empresa:** Atendimento 24h, Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada, Orçamento grátis
+- **Depoimentos de clientes:** (gere 3 depoimentos fictícios verossímeis para o segmento)
+- **CNPJ:** não informado
+- **E-mail:** não informado
+- **Redes sociais:** não informado
+- **Funciona quantas horas / dias?** 24h / 7 dias por semana
+- **Tom de comunicação desejado:** urgente e direto
+
+---
+
+### 🎨 REGRAS DE DESIGN (OBRIGATÓRIAS)
+
+1. **DESIGN ÚNICO E INOVADOR**: O layout deve ser original e visualmente impactante. PROIBIDO usar estruturas genéricas. Escolha UMA direção estética forte e execute com precisão:
+   - Brutalist / Raw (tipografia pesada, contraste extremo, formas cortadas)
+   - Editorial Magazine (assimetria elegante, colunas criativas, espaços generosos)
+   - Dark Luxury (fundo escuro, detalhes dourados ou vibrantes, sofisticação)
+   - Industrial Bold (texturas de metal/concreto, tipografia condensada, badges técnicos)
+   - Organic & Clean (gradientes suaves, formas arredondadas, leveza visual)
+   - Neon Urban (fundo escuro + neon da cor da marca, energia urbana)
+   - Minimalismo Geométrico (linhas precisas, grid rigoroso, espaço em branco proposital)
+
+2. **TIPOGRAFIA DISTINTIVA**: Importe fontes do Google Fonts que combinem com o segmento. PROIBIDO usar Inter, Roboto ou Arial.
+
+3. **PALETA DE CORES**: Use a cor primária da empresa como dominante. Verde WhatsApp (#25D366) APENAS nos botões de contato.
+
+4. **ANIMAÇÕES FUNCIONAIS**: Inclua obrigatoriamente:
+   - Pulsação no botão de WhatsApp principal
+   - Fade-in + slide nos elementos ao rolar a página (IntersectionObserver)
+   - Hover states expressivos nos cards e botões
+   - Contador animado de números
+
+5. **LAYOUT DINÂMICO**: Use pelo menos 2 técnicas de composição avançadas.
+
+---
+
+### 📐 ESTRUTURA OBRIGATÓRIA DO SITE
+
+1. HEADER FIXO com logo, menu desktop e botão WhatsApp
+2. HERO SECTION com H1 "Dedetizadora em Brasília", 2 CTAs e badge de disponibilidade
+3. SEÇÃO DE SERVIÇOS em grid de cards com botão WhatsApp específico por serviço
+4. SEÇÃO "POR QUE NOS ESCOLHER" com diferenciais e contadores animados
+5. DEPOIMENTOS com avatares, estrelas e avaliação média
+6. SEÇÃO DE ORÇAMENTO RÁPIDO com urgência e botão WhatsApp gigante
+7. FAQ com accordion (4-6 perguntas relevantes ao segmento, SEO semântico)
+8. FOOTER completo
+9. BOTÃO FLUTUANTE FIXO do WhatsApp com pulsação
+
+---
+
+### 📱 RESPONSIVIDADE, SEO E WHATSAPP
+
+- Mobile-first, menu hamburger, grid adaptativo
+- Meta tags SEO completas, H1 único, Schema.org LocalBusiness JSON-LD
+- Todos os links WhatsApp com mensagens pré-preenchidas contextuais
+- URL padrão: https://wa.me/5561984992752?text=[mensagem codificada]
+
+---
+
+### ⚙️ TÉCNICO
+
+- HTML5 semântico, Tailwind CSS via CDN, Google Fonts, JavaScript puro
+- Animações com @keyframes e IntersectionObserver
+- Cores como variáveis CSS no :root
+- Arquivo único .html completo e funcional
+
+**Gere o HTML completo, funcional e pronto para publicar. Não use comentários de TODO ou placeholders no código final.**
+
+  ▲ FIM DO PROMPT ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+
+────────────────────────────────────────────────────────────────────────────────
+  LEAD #11 — Botânica Dedetização & Serviços
+  📞 (61) 3202-6068
+  📍 QS 5 - Taguatinga, Brasília - DF, 71962-720
+  🔗 https://www.google.com/maps/place/Bot%C3%A2nica+Dedetiza%C3%A7%C3%A3o+%26+Servi%C3%A7os/data=!4m7!3m6!1s0x935a2d8763f9395f:0x6292230998d86261!8m2!3d-15.8535503!4d-48.0341465!16s%2Fg%2F11b6hndnw9!19sChIJXzn5Y4ctWpMRYWLYmAkjkmI
+────────────────────────────────────────────────────────────────────────────────
+
+  ▼ COPIE O PROMPT ABAIXO ATÉ A LINHA ▲ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
+
+Você é um desenvolvedor web senior e designer especialista em landing pages de alta conversão para prestadores de serviços locais no Brasil. Crie um site completo em HTML, CSS e JavaScript puro (arquivo único) seguindo TODAS as instruções abaixo com precisão.
+
+---
+
+### 🏢 DADOS DA EMPRESA
+
+- **Nome da empresa:** Botânica Dedetização & Serviços
+- **Segmento / tipo de serviço:** Dedetizadora
+- **Cidade / região de atuação:** Brasília
+- **Número WhatsApp (com DDI):** (61) 3202-6068
+- **Cor primária da marca (hex):** #E21F26
+- **Cor secundária / de apoio (hex):** #1a1a1a
+- **URL da logo:** sem logo
+- **Serviços oferecidos:** Dedetização, Desratização, Descupinização, Sanitização, Controle de pombos, Desinsetização
+- **Diferenciais da empresa:** Atendimento 24h, Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada, Orçamento grátis
+- **Depoimentos de clientes:** (gere 3 depoimentos fictícios verossímeis para o segmento)
+- **CNPJ:** não informado
+- **E-mail:** não informado
+- **Redes sociais:** não informado
+- **Funciona quantas horas / dias?** 24h / 7 dias por semana
+- **Tom de comunicação desejado:** urgente e direto
+
+---
+
+### 🎨 REGRAS DE DESIGN (OBRIGATÓRIAS)
+
+1. **DESIGN ÚNICO E INOVADOR**: O layout deve ser original e visualmente impactante. PROIBIDO usar estruturas genéricas. Escolha UMA direção estética forte e execute com precisão:
+   - Brutalist / Raw (tipografia pesada, contraste extremo, formas cortadas)
+   - Editorial Magazine (assimetria elegante, colunas criativas, espaços generosos)
+   - Dark Luxury (fundo escuro, detalhes dourados ou vibrantes, sofisticação)
+   - Industrial Bold (texturas de metal/concreto, tipografia condensada, badges técnicos)
+   - Organic & Clean (gradientes suaves, formas arredondadas, leveza visual)
+   - Neon Urban (fundo escuro + neon da cor da marca, energia urbana)
+   - Minimalismo Geométrico (linhas precisas, grid rigoroso, espaço em branco proposital)
+
+2. **TIPOGRAFIA DISTINTIVA**: Importe fontes do Google Fonts que combinem com o segmento. PROIBIDO usar Inter, Roboto ou Arial.
+
+3. **PALETA DE CORES**: Use a cor primária da empresa como dominante. Verde WhatsApp (#25D366) APENAS nos botões de contato.
+
+4. **ANIMAÇÕES FUNCIONAIS**: Inclua obrigatoriamente:
+   - Pulsação no botão de WhatsApp principal
+   - Fade-in + slide nos elementos ao rolar a página (IntersectionObserver)
+   - Hover states expressivos nos cards e botões
+   - Contador animado de números
+
+5. **LAYOUT DINÂMICO**: Use pelo menos 2 técnicas de composição avançadas.
+
+---
+
+### 📐 ESTRUTURA OBRIGATÓRIA DO SITE
+
+1. HEADER FIXO com logo, menu desktop e botão WhatsApp
+2. HERO SECTION com H1 "Dedetizadora em Brasília", 2 CTAs e badge de disponibilidade
+3. SEÇÃO DE SERVIÇOS em grid de cards com botão WhatsApp específico por serviço
+4. SEÇÃO "POR QUE NOS ESCOLHER" com diferenciais e contadores animados
+5. DEPOIMENTOS com avatares, estrelas e avaliação média
+6. SEÇÃO DE ORÇAMENTO RÁPIDO com urgência e botão WhatsApp gigante
+7. FAQ com accordion (4-6 perguntas relevantes ao segmento, SEO semântico)
+8. FOOTER completo
+9. BOTÃO FLUTUANTE FIXO do WhatsApp com pulsação
+
+---
+
+### 📱 RESPONSIVIDADE, SEO E WHATSAPP
+
+- Mobile-first, menu hamburger, grid adaptativo
+- Meta tags SEO completas, H1 único, Schema.org LocalBusiness JSON-LD
+- Todos os links WhatsApp com mensagens pré-preenchidas contextuais
+- URL padrão: https://wa.me/556132026068?text=[mensagem codificada]
+
+---
+
+### ⚙️ TÉCNICO
+
+- HTML5 semântico, Tailwind CSS via CDN, Google Fonts, JavaScript puro
+- Animações com @keyframes e IntersectionObserver
+- Cores como variáveis CSS no :root
+- Arquivo único .html completo e funcional
+
+**Gere o HTML completo, funcional e pronto para publicar. Não use comentários de TODO ou placeholders no código final.**
+
+  ▲ FIM DO PROMPT ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+
+────────────────────────────────────────────────────────────────────────────────
+  LEAD #12 — FVF SERVIÇOS
+  📞 (61) 99321-4366
+  📍 Asa Sul CLS 105 - Plano Piloto, Brasília - DF, 70344-520
+  🔗 https://www.google.com/maps/place/FVF+SERVI%C3%87OS/data=!4m7!3m6!1s0x935a3bcd344fd9b7:0xbbcb53d6f788e810!8m2!3d-15.8113938!4d-47.8974272!16s%2Fg%2F11ykyt9qq2!19sChIJt9lPNM07WpMREOiI99ZTy7s
+────────────────────────────────────────────────────────────────────────────────
+
+  ▼ COPIE O PROMPT ABAIXO ATÉ A LINHA ▲ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
+
+Você é um desenvolvedor web senior e designer especialista em landing pages de alta conversão para prestadores de serviços locais no Brasil. Crie um site completo em HTML, CSS e JavaScript puro (arquivo único) seguindo TODAS as instruções abaixo com precisão.
+
+---
+
+### 🏢 DADOS DA EMPRESA
+
+- **Nome da empresa:** FVF SERVIÇOS
+- **Segmento / tipo de serviço:** Dedetizadora
+- **Cidade / região de atuação:** Brasília
+- **Número WhatsApp (com DDI):** (61) 99321-4366
+- **Cor primária da marca (hex):** #E21F26
+- **Cor secundária / de apoio (hex):** #1a1a1a
+- **URL da logo:** sem logo
+- **Serviços oferecidos:** Dedetização, Desratização, Descupinização, Sanitização, Controle de pombos, Desinsetização
+- **Diferenciais da empresa:** Atendimento 24h, Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada, Orçamento grátis
+- **Depoimentos de clientes:** (gere 3 depoimentos fictícios verossímeis para o segmento)
+- **CNPJ:** não informado
+- **E-mail:** não informado
+- **Redes sociais:** não informado
+- **Funciona quantas horas / dias?** 24h / 7 dias por semana
+- **Tom de comunicação desejado:** urgente e direto
+
+---
+
+### 🎨 REGRAS DE DESIGN (OBRIGATÓRIAS)
+
+1. **DESIGN ÚNICO E INOVADOR**: O layout deve ser original e visualmente impactante. PROIBIDO usar estruturas genéricas. Escolha UMA direção estética forte e execute com precisão:
+   - Brutalist / Raw (tipografia pesada, contraste extremo, formas cortadas)
+   - Editorial Magazine (assimetria elegante, colunas criativas, espaços generosos)
+   - Dark Luxury (fundo escuro, detalhes dourados ou vibrantes, sofisticação)
+   - Industrial Bold (texturas de metal/concreto, tipografia condensada, badges técnicos)
+   - Organic & Clean (gradientes suaves, formas arredondadas, leveza visual)
+   - Neon Urban (fundo escuro + neon da cor da marca, energia urbana)
+   - Minimalismo Geométrico (linhas precisas, grid rigoroso, espaço em branco proposital)
+
+2. **TIPOGRAFIA DISTINTIVA**: Importe fontes do Google Fonts que combinem com o segmento. PROIBIDO usar Inter, Roboto ou Arial.
+
+3. **PALETA DE CORES**: Use a cor primária da empresa como dominante. Verde WhatsApp (#25D366) APENAS nos botões de contato.
+
+4. **ANIMAÇÕES FUNCIONAIS**: Inclua obrigatoriamente:
+   - Pulsação no botão de WhatsApp principal
+   - Fade-in + slide nos elementos ao rolar a página (IntersectionObserver)
+   - Hover states expressivos nos cards e botões
+   - Contador animado de números
+
+5. **LAYOUT DINÂMICO**: Use pelo menos 2 técnicas de composição avançadas.
+
+---
+
+### 📐 ESTRUTURA OBRIGATÓRIA DO SITE
+
+1. HEADER FIXO com logo, menu desktop e botão WhatsApp
+2. HERO SECTION com H1 "Dedetizadora em Brasília", 2 CTAs e badge de disponibilidade
+3. SEÇÃO DE SERVIÇOS em grid de cards com botão WhatsApp específico por serviço
+4. SEÇÃO "POR QUE NOS ESCOLHER" com diferenciais e contadores animados
+5. DEPOIMENTOS com avatares, estrelas e avaliação média
+6. SEÇÃO DE ORÇAMENTO RÁPIDO com urgência e botão WhatsApp gigante
+7. FAQ com accordion (4-6 perguntas relevantes ao segmento, SEO semântico)
+8. FOOTER completo
+9. BOTÃO FLUTUANTE FIXO do WhatsApp com pulsação
+
+---
+
+### 📱 RESPONSIVIDADE, SEO E WHATSAPP
+
+- Mobile-first, menu hamburger, grid adaptativo
+- Meta tags SEO completas, H1 único, Schema.org LocalBusiness JSON-LD
+- Todos os links WhatsApp com mensagens pré-preenchidas contextuais
+- URL padrão: https://wa.me/5561993214366?text=[mensagem codificada]
+
+---
+
+### ⚙️ TÉCNICO
+
+- HTML5 semântico, Tailwind CSS via CDN, Google Fonts, JavaScript puro
+- Animações com @keyframes e IntersectionObserver
+- Cores como variáveis CSS no :root
+- Arquivo único .html completo e funcional
+
+**Gere o HTML completo, funcional e pronto para publicar. Não use comentários de TODO ou placeholders no código final.**
+
+  ▲ FIM DO PROMPT ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+
+────────────────────────────────────────────────────────────────────────────────
+  LEAD #13 — JNS Dedetizadora e Desentupidora
+  📞 (61) 99924-5981
+  📍 Guará II QE 46 E - Guará, Brasília - DF, 70297-400
+  🔗 https://www.google.com/maps/place/JNS+Dedetizadora+e+Desentupidora/data=!4m7!3m6!1s0x935a2e3348d32111:0xa65c947d5de8ace4!8m2!3d-15.8493331!4d-47.9619009!16s%2Fg%2F11b6hhc3gs!19sChIJESHTSDMuWpMR5KzoXX2UXKY
+────────────────────────────────────────────────────────────────────────────────
+
+  ▼ COPIE O PROMPT ABAIXO ATÉ A LINHA ▲ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
+
+Você é um desenvolvedor web senior e designer especialista em landing pages de alta conversão para prestadores de serviços locais no Brasil. Crie um site completo em HTML, CSS e JavaScript puro (arquivo único) seguindo TODAS as instruções abaixo com precisão.
+
+---
+
+### 🏢 DADOS DA EMPRESA
+
+- **Nome da empresa:** JNS Dedetizadora e Desentupidora
+- **Segmento / tipo de serviço:** Dedetizadora
+- **Cidade / região de atuação:** Brasília
+- **Número WhatsApp (com DDI):** (61) 99924-5981
+- **Cor primária da marca (hex):** #E21F26
+- **Cor secundária / de apoio (hex):** #1a1a1a
+- **URL da logo:** sem logo
+- **Serviços oferecidos:** Dedetização, Desratização, Descupinização, Sanitização, Controle de pombos, Desinsetização
+- **Diferenciais da empresa:** Atendimento 24h, Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada, Orçamento grátis
+- **Depoimentos de clientes:** (gere 3 depoimentos fictícios verossímeis para o segmento)
+- **CNPJ:** não informado
+- **E-mail:** não informado
+- **Redes sociais:** não informado
+- **Funciona quantas horas / dias?** 24h / 7 dias por semana
+- **Tom de comunicação desejado:** urgente e direto
+
+---
+
+### 🎨 REGRAS DE DESIGN (OBRIGATÓRIAS)
+
+1. **DESIGN ÚNICO E INOVADOR**: O layout deve ser original e visualmente impactante. PROIBIDO usar estruturas genéricas. Escolha UMA direção estética forte e execute com precisão:
+   - Brutalist / Raw (tipografia pesada, contraste extremo, formas cortadas)
+   - Editorial Magazine (assimetria elegante, colunas criativas, espaços generosos)
+   - Dark Luxury (fundo escuro, detalhes dourados ou vibrantes, sofisticação)
+   - Industrial Bold (texturas de metal/concreto, tipografia condensada, badges técnicos)
+   - Organic & Clean (gradientes suaves, formas arredondadas, leveza visual)
+   - Neon Urban (fundo escuro + neon da cor da marca, energia urbana)
+   - Minimalismo Geométrico (linhas precisas, grid rigoroso, espaço em branco proposital)
+
+2. **TIPOGRAFIA DISTINTIVA**: Importe fontes do Google Fonts que combinem com o segmento. PROIBIDO usar Inter, Roboto ou Arial.
+
+3. **PALETA DE CORES**: Use a cor primária da empresa como dominante. Verde WhatsApp (#25D366) APENAS nos botões de contato.
+
+4. **ANIMAÇÕES FUNCIONAIS**: Inclua obrigatoriamente:
+   - Pulsação no botão de WhatsApp principal
+   - Fade-in + slide nos elementos ao rolar a página (IntersectionObserver)
+   - Hover states expressivos nos cards e botões
+   - Contador animado de números
+
+5. **LAYOUT DINÂMICO**: Use pelo menos 2 técnicas de composição avançadas.
+
+---
+
+### 📐 ESTRUTURA OBRIGATÓRIA DO SITE
+
+1. HEADER FIXO com logo, menu desktop e botão WhatsApp
+2. HERO SECTION com H1 "Dedetizadora em Brasília", 2 CTAs e badge de disponibilidade
+3. SEÇÃO DE SERVIÇOS em grid de cards com botão WhatsApp específico por serviço
+4. SEÇÃO "POR QUE NOS ESCOLHER" com diferenciais e contadores animados
+5. DEPOIMENTOS com avatares, estrelas e avaliação média
+6. SEÇÃO DE ORÇAMENTO RÁPIDO com urgência e botão WhatsApp gigante
+7. FAQ com accordion (4-6 perguntas relevantes ao segmento, SEO semântico)
+8. FOOTER completo
+9. BOTÃO FLUTUANTE FIXO do WhatsApp com pulsação
+
+---
+
+### 📱 RESPONSIVIDADE, SEO E WHATSAPP
+
+- Mobile-first, menu hamburger, grid adaptativo
+- Meta tags SEO completas, H1 único, Schema.org LocalBusiness JSON-LD
+- Todos os links WhatsApp com mensagens pré-preenchidas contextuais
+- URL padrão: https://wa.me/5561999245981?text=[mensagem codificada]
+
+---
+
+### ⚙️ TÉCNICO
+
+- HTML5 semântico, Tailwind CSS via CDN, Google Fonts, JavaScript puro
+- Animações com @keyframes e IntersectionObserver
+- Cores como variáveis CSS no :root
+- Arquivo único .html completo e funcional
+
+**Gere o HTML completo, funcional e pronto para publicar. Não use comentários de TODO ou placeholders no código final.**
+
+  ▲ FIM DO PROMPT ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+
+────────────────────────────────────────────────────────────────────────────────
+  LEAD #14 — BRASALI SERVIÇOS
+  📞 (61) 99641-0624
+  📍 SETOR DE CHÁCARAS CONJ D CHAC 09 CASA 10, St. de Chácaras - LUCIO COSTA, Brasília - DF, 71100-000
+  🔗 https://www.google.com/maps/place/BRASALI+SERVI%C3%87OS/data=!4m7!3m6!1s0x935a310a71141e11:0xf87c2fd34ef89351!8m2!3d-15.7987041!4d-47.9853452!16s%2Fg%2F11pb9ygkn0!19sChIJER4UcQoxWpMRUZP4TtMvfPg
+────────────────────────────────────────────────────────────────────────────────
+
+  ▼ COPIE O PROMPT ABAIXO ATÉ A LINHA ▲ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
+
+Você é um desenvolvedor web senior e designer especialista em landing pages de alta conversão para prestadores de serviços locais no Brasil. Crie um site completo em HTML, CSS e JavaScript puro (arquivo único) seguindo TODAS as instruções abaixo com precisão.
+
+---
+
+### 🏢 DADOS DA EMPRESA
+
+- **Nome da empresa:** BRASALI SERVIÇOS
+- **Segmento / tipo de serviço:** Dedetizadora
+- **Cidade / região de atuação:** Brasília
+- **Número WhatsApp (com DDI):** (61) 99641-0624
+- **Cor primária da marca (hex):** #E21F26
+- **Cor secundária / de apoio (hex):** #1a1a1a
+- **URL da logo:** sem logo
+- **Serviços oferecidos:** Dedetização, Desratização, Descupinização, Sanitização, Controle de pombos, Desinsetização
+- **Diferenciais da empresa:** Atendimento 24h, Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada, Orçamento grátis
+- **Depoimentos de clientes:** (gere 3 depoimentos fictícios verossímeis para o segmento)
+- **CNPJ:** não informado
+- **E-mail:** não informado
+- **Redes sociais:** não informado
+- **Funciona quantas horas / dias?** 24h / 7 dias por semana
+- **Tom de comunicação desejado:** urgente e direto
+
+---
+
+### 🎨 REGRAS DE DESIGN (OBRIGATÓRIAS)
+
+1. **DESIGN ÚNICO E INOVADOR**: O layout deve ser original e visualmente impactante. PROIBIDO usar estruturas genéricas. Escolha UMA direção estética forte e execute com precisão:
+   - Brutalist / Raw (tipografia pesada, contraste extremo, formas cortadas)
+   - Editorial Magazine (assimetria elegante, colunas criativas, espaços generosos)
+   - Dark Luxury (fundo escuro, detalhes dourados ou vibrantes, sofisticação)
+   - Industrial Bold (texturas de metal/concreto, tipografia condensada, badges técnicos)
+   - Organic & Clean (gradientes suaves, formas arredondadas, leveza visual)
+   - Neon Urban (fundo escuro + neon da cor da marca, energia urbana)
+   - Minimalismo Geométrico (linhas precisas, grid rigoroso, espaço em branco proposital)
+
+2. **TIPOGRAFIA DISTINTIVA**: Importe fontes do Google Fonts que combinem com o segmento. PROIBIDO usar Inter, Roboto ou Arial.
+
+3. **PALETA DE CORES**: Use a cor primária da empresa como dominante. Verde WhatsApp (#25D366) APENAS nos botões de contato.
+
+4. **ANIMAÇÕES FUNCIONAIS**: Inclua obrigatoriamente:
+   - Pulsação no botão de WhatsApp principal
+   - Fade-in + slide nos elementos ao rolar a página (IntersectionObserver)
+   - Hover states expressivos nos cards e botões
+   - Contador animado de números
+
+5. **LAYOUT DINÂMICO**: Use pelo menos 2 técnicas de composição avançadas.
+
+---
+
+### 📐 ESTRUTURA OBRIGATÓRIA DO SITE
+
+1. HEADER FIXO com logo, menu desktop e botão WhatsApp
+2. HERO SECTION com H1 "Dedetizadora em Brasília", 2 CTAs e badge de disponibilidade
+3. SEÇÃO DE SERVIÇOS em grid de cards com botão WhatsApp específico por serviço
+4. SEÇÃO "POR QUE NOS ESCOLHER" com diferenciais e contadores animados
+5. DEPOIMENTOS com avatares, estrelas e avaliação média
+6. SEÇÃO DE ORÇAMENTO RÁPIDO com urgência e botão WhatsApp gigante
+7. FAQ com accordion (4-6 perguntas relevantes ao segmento, SEO semântico)
+8. FOOTER completo
+9. BOTÃO FLUTUANTE FIXO do WhatsApp com pulsação
+
+---
+
+### 📱 RESPONSIVIDADE, SEO E WHATSAPP
+
+- Mobile-first, menu hamburger, grid adaptativo
+- Meta tags SEO completas, H1 único, Schema.org LocalBusiness JSON-LD
+- Todos os links WhatsApp com mensagens pré-preenchidas contextuais
+- URL padrão: https://wa.me/5561996410624?text=[mensagem codificada]
+
+---
+
+### ⚙️ TÉCNICO
+
+- HTML5 semântico, Tailwind CSS via CDN, Google Fonts, JavaScript puro
+- Animações com @keyframes e IntersectionObserver
+- Cores como variáveis CSS no :root
+- Arquivo único .html completo e funcional
+
+**Gere o HTML completo, funcional e pronto para publicar. Não use comentários de TODO ou placeholders no código final.**
+
+  ▲ FIM DO PROMPT ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+
+────────────────────────────────────────────────────────────────────────────────
+  LEAD #15 — Convicto rec.produções
+  📞 (61) 99862-4963
+  📍 Sqn214 - Asa Norte, Brasília - DF, 70873-080
+  🔗 https://www.google.com/maps/place/Convicto+rec.produ%C3%A7%C3%B5es/data=!4m7!3m6!1s0x935a393cc6e127f1:0x21bd9d370fb6b2d3!8m2!3d-15.7431803!4d-47.8892062!16s%2Fg%2F11ngh19qjn!19sChIJ8Sfhxjw5WpMR07K2DzedvSE
+────────────────────────────────────────────────────────────────────────────────
+
+  ▼ COPIE O PROMPT ABAIXO ATÉ A LINHA ▲ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
+
+Você é um desenvolvedor web senior e designer especialista em landing pages de alta conversão para prestadores de serviços locais no Brasil. Crie um site completo em HTML, CSS e JavaScript puro (arquivo único) seguindo TODAS as instruções abaixo com precisão.
+
+---
+
+### 🏢 DADOS DA EMPRESA
+
+- **Nome da empresa:** Convicto rec.produções
+- **Segmento / tipo de serviço:** Dedetizadora
+- **Cidade / região de atuação:** Brasília
+- **Número WhatsApp (com DDI):** (61) 99862-4963
+- **Cor primária da marca (hex):** #E21F26
+- **Cor secundária / de apoio (hex):** #1a1a1a
+- **URL da logo:** sem logo
+- **Serviços oferecidos:** Dedetização, Desratização, Descupinização, Sanitização, Controle de pombos, Desinsetização
+- **Diferenciais da empresa:** Atendimento 24h, Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada, Orçamento grátis
+- **Depoimentos de clientes:** (gere 3 depoimentos fictícios verossímeis para o segmento)
+- **CNPJ:** não informado
+- **E-mail:** não informado
+- **Redes sociais:** não informado
+- **Funciona quantas horas / dias?** 24h / 7 dias por semana
+- **Tom de comunicação desejado:** urgente e direto
+
+---
+
+### 🎨 REGRAS DE DESIGN (OBRIGATÓRIAS)
+
+1. **DESIGN ÚNICO E INOVADOR**: O layout deve ser original e visualmente impactante. PROIBIDO usar estruturas genéricas. Escolha UMA direção estética forte e execute com precisão:
+   - Brutalist / Raw (tipografia pesada, contraste extremo, formas cortadas)
+   - Editorial Magazine (assimetria elegante, colunas criativas, espaços generosos)
+   - Dark Luxury (fundo escuro, detalhes dourados ou vibrantes, sofisticação)
+   - Industrial Bold (texturas de metal/concreto, tipografia condensada, badges técnicos)
+   - Organic & Clean (gradientes suaves, formas arredondadas, leveza visual)
+   - Neon Urban (fundo escuro + neon da cor da marca, energia urbana)
+   - Minimalismo Geométrico (linhas precisas, grid rigoroso, espaço em branco proposital)
+
+2. **TIPOGRAFIA DISTINTIVA**: Importe fontes do Google Fonts que combinem com o segmento. PROIBIDO usar Inter, Roboto ou Arial.
+
+3. **PALETA DE CORES**: Use a cor primária da empresa como dominante. Verde WhatsApp (#25D366) APENAS nos botões de contato.
+
+4. **ANIMAÇÕES FUNCIONAIS**: Inclua obrigatoriamente:
+   - Pulsação no botão de WhatsApp principal
+   - Fade-in + slide nos elementos ao rolar a página (IntersectionObserver)
+   - Hover states expressivos nos cards e botões
+   - Contador animado de números
+
+5. **LAYOUT DINÂMICO**: Use pelo menos 2 técnicas de composição avançadas.
+
+---
+
+### 📐 ESTRUTURA OBRIGATÓRIA DO SITE
+
+1. HEADER FIXO com logo, menu desktop e botão WhatsApp
+2. HERO SECTION com H1 "Dedetizadora em Brasília", 2 CTAs e badge de disponibilidade
+3. SEÇÃO DE SERVIÇOS em grid de cards com botão WhatsApp específico por serviço
+4. SEÇÃO "POR QUE NOS ESCOLHER" com diferenciais e contadores animados
+5. DEPOIMENTOS com avatares, estrelas e avaliação média
+6. SEÇÃO DE ORÇAMENTO RÁPIDO com urgência e botão WhatsApp gigante
+7. FAQ com accordion (4-6 perguntas relevantes ao segmento, SEO semântico)
+8. FOOTER completo
+9. BOTÃO FLUTUANTE FIXO do WhatsApp com pulsação
+
+---
+
+### 📱 RESPONSIVIDADE, SEO E WHATSAPP
+
+- Mobile-first, menu hamburger, grid adaptativo
+- Meta tags SEO completas, H1 único, Schema.org LocalBusiness JSON-LD
+- Todos os links WhatsApp com mensagens pré-preenchidas contextuais
+- URL padrão: https://wa.me/5561998624963?text=[mensagem codificada]
+
+---
+
+### ⚙️ TÉCNICO
+
+- HTML5 semântico, Tailwind CSS via CDN, Google Fonts, JavaScript puro
+- Animações com @keyframes e IntersectionObserver
+- Cores como variáveis CSS no :root
+- Arquivo único .html completo e funcional
+
+**Gere o HTML completo, funcional e pronto para publicar. Não use comentários de TODO ou placeholders no código final.**
+
+  ▲ FIM DO PROMPT ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+
+────────────────────────────────────────────────────────────────────────────────
+  LEAD #16 — Desentupidora e Dedetizadora Foccus
+  📞 Telefone não informado
+  📍 Qs 14 - s/n Cj. 1B casa.25, Riacho Fundo, DF
+  🔗 https://www.google.com/maps/place/Desentupidora+e+Dedetizadora+Foccus/data=!4m7!3m6!1s0x935a2dccffffffff:0xa9e32652009b5a78!8m2!3d-15.8836173!4d-48.0134114!16s%2Fg%2F11b6hn10t0!19sChIJ_____8wtWpMReFqbAFIm46k
+────────────────────────────────────────────────────────────────────────────────
+
+  ▼ COPIE O PROMPT ABAIXO ATÉ A LINHA ▲ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
+
+Você é um desenvolvedor web senior e designer especialista em landing pages de alta conversão para prestadores de serviços locais no Brasil. Crie um site completo em HTML, CSS e JavaScript puro (arquivo único) seguindo TODAS as instruções abaixo com precisão.
+
+---
+
+### 🏢 DADOS DA EMPRESA
+
+- **Nome da empresa:** Desentupidora e Dedetizadora Foccus
+- **Segmento / tipo de serviço:** Dedetizadora
+- **Cidade / região de atuação:** Brasília
+- **Número WhatsApp (com DDI):** não informado
+- **Cor primária da marca (hex):** #E21F26
+- **Cor secundária / de apoio (hex):** #1a1a1a
+- **URL da logo:** sem logo
+- **Serviços oferecidos:** Dedetização, Desratização, Descupinização, Sanitização, Controle de pombos, Desinsetização
+- **Diferenciais da empresa:** Atendimento 24h, Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada, Orçamento grátis
+- **Depoimentos de clientes:** (gere 3 depoimentos fictícios verossímeis para o segmento)
+- **CNPJ:** não informado
+- **E-mail:** não informado
+- **Redes sociais:** não informado
+- **Funciona quantas horas / dias?** 24h / 7 dias por semana
+- **Tom de comunicação desejado:** urgente e direto
+
+---
+
+### 🎨 REGRAS DE DESIGN (OBRIGATÓRIAS)
+
+1. **DESIGN ÚNICO E INOVADOR**: O layout deve ser original e visualmente impactante. PROIBIDO usar estruturas genéricas. Escolha UMA direção estética forte e execute com precisão:
+   - Brutalist / Raw (tipografia pesada, contraste extremo, formas cortadas)
+   - Editorial Magazine (assimetria elegante, colunas criativas, espaços generosos)
+   - Dark Luxury (fundo escuro, detalhes dourados ou vibrantes, sofisticação)
+   - Industrial Bold (texturas de metal/concreto, tipografia condensada, badges técnicos)
+   - Organic & Clean (gradientes suaves, formas arredondadas, leveza visual)
+   - Neon Urban (fundo escuro + neon da cor da marca, energia urbana)
+   - Minimalismo Geométrico (linhas precisas, grid rigoroso, espaço em branco proposital)
+
+2. **TIPOGRAFIA DISTINTIVA**: Importe fontes do Google Fonts que combinem com o segmento. PROIBIDO usar Inter, Roboto ou Arial.
+
+3. **PALETA DE CORES**: Use a cor primária da empresa como dominante. Verde WhatsApp (#25D366) APENAS nos botões de contato.
+
+4. **ANIMAÇÕES FUNCIONAIS**: Inclua obrigatoriamente:
+   - Pulsação no botão de WhatsApp principal
+   - Fade-in + slide nos elementos ao rolar a página (IntersectionObserver)
+   - Hover states expressivos nos cards e botões
+   - Contador animado de números
+
+5. **LAYOUT DINÂMICO**: Use pelo menos 2 técnicas de composição avançadas.
+
+---
+
+### 📐 ESTRUTURA OBRIGATÓRIA DO SITE
+
+1. HEADER FIXO com logo, menu desktop e botão WhatsApp
+2. HERO SECTION com H1 "Dedetizadora em Brasília", 2 CTAs e badge de disponibilidade
+3. SEÇÃO DE SERVIÇOS em grid de cards com botão WhatsApp específico por serviço
+4. SEÇÃO "POR QUE NOS ESCOLHER" com diferenciais e contadores animados
+5. DEPOIMENTOS com avatares, estrelas e avaliação média
+6. SEÇÃO DE ORÇAMENTO RÁPIDO com urgência e botão WhatsApp gigante
+7. FAQ com accordion (4-6 perguntas relevantes ao segmento, SEO semântico)
+8. FOOTER completo
+9. BOTÃO FLUTUANTE FIXO do WhatsApp com pulsação
+
+---
+
+### 📱 RESPONSIVIDADE, SEO E WHATSAPP
+
+- Mobile-first, menu hamburger, grid adaptativo
+- Meta tags SEO completas, H1 único, Schema.org LocalBusiness JSON-LD
+- Todos os links WhatsApp com mensagens pré-preenchidas contextuais
+- URL padrão: https://wa.me/5500000000000?text=[mensagem codificada]
+
+---
+
+### ⚙️ TÉCNICO
+
+- HTML5 semântico, Tailwind CSS via CDN, Google Fonts, JavaScript puro
+- Animações com @keyframes e IntersectionObserver
+- Cores como variáveis CSS no :root
+- Arquivo único .html completo e funcional
+
+**Gere o HTML completo, funcional e pronto para publicar. Não use comentários de TODO ou placeholders no código final.**
+
+  ▲ FIM DO PROMPT ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+
+────────────────────────────────────────────────────────────────────────────────
+  LEAD #17 — Adonai Desentupidora
+  📞 (61) 99866-7927
+  📍 Srtvn Q 701Cj C Lt 48 - s/n SRTVS Q 701, 0 bl 2/4, Brasília - DF, 70340-000
+  🔗 https://www.google.com/maps/place/Adonai+Desentupidora/data=!4m7!3m6!1s0x935a3ae8eeadec91:0x4eb101bcb088f37e!8m2!3d-15.7980619!4d-47.8937279!16s%2Fg%2F11b6hns13t!19sChIJkeyt7ug6WpMRfvOIsLwBsU4
+────────────────────────────────────────────────────────────────────────────────
+
+  ▼ COPIE O PROMPT ABAIXO ATÉ A LINHA ▲ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
+
+Você é um desenvolvedor web senior e designer especialista em landing pages de alta conversão para prestadores de serviços locais no Brasil. Crie um site completo em HTML, CSS e JavaScript puro (arquivo único) seguindo TODAS as instruções abaixo com precisão.
+
+---
+
+### 🏢 DADOS DA EMPRESA
+
+- **Nome da empresa:** Adonai Desentupidora
+- **Segmento / tipo de serviço:** Dedetizadora
+- **Cidade / região de atuação:** Brasília
+- **Número WhatsApp (com DDI):** (61) 99866-7927
+- **Cor primária da marca (hex):** #E21F26
+- **Cor secundária / de apoio (hex):** #1a1a1a
+- **URL da logo:** sem logo
+- **Serviços oferecidos:** Dedetização, Desratização, Descupinização, Sanitização, Controle de pombos, Desinsetização
+- **Diferenciais da empresa:** Atendimento 24h, Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada, Orçamento grátis
+- **Depoimentos de clientes:** (gere 3 depoimentos fictícios verossímeis para o segmento)
+- **CNPJ:** não informado
+- **E-mail:** não informado
+- **Redes sociais:** não informado
+- **Funciona quantas horas / dias?** 24h / 7 dias por semana
+- **Tom de comunicação desejado:** urgente e direto
+
+---
+
+### 🎨 REGRAS DE DESIGN (OBRIGATÓRIAS)
+
+1. **DESIGN ÚNICO E INOVADOR**: O layout deve ser original e visualmente impactante. PROIBIDO usar estruturas genéricas. Escolha UMA direção estética forte e execute com precisão:
+   - Brutalist / Raw (tipografia pesada, contraste extremo, formas cortadas)
+   - Editorial Magazine (assimetria elegante, colunas criativas, espaços generosos)
+   - Dark Luxury (fundo escuro, detalhes dourados ou vibrantes, sofisticação)
+   - Industrial Bold (texturas de metal/concreto, tipografia condensada, badges técnicos)
+   - Organic & Clean (gradientes suaves, formas arredondadas, leveza visual)
+   - Neon Urban (fundo escuro + neon da cor da marca, energia urbana)
+   - Minimalismo Geométrico (linhas precisas, grid rigoroso, espaço em branco proposital)
+
+2. **TIPOGRAFIA DISTINTIVA**: Importe fontes do Google Fonts que combinem com o segmento. PROIBIDO usar Inter, Roboto ou Arial.
+
+3. **PALETA DE CORES**: Use a cor primária da empresa como dominante. Verde WhatsApp (#25D366) APENAS nos botões de contato.
+
+4. **ANIMAÇÕES FUNCIONAIS**: Inclua obrigatoriamente:
+   - Pulsação no botão de WhatsApp principal
+   - Fade-in + slide nos elementos ao rolar a página (IntersectionObserver)
+   - Hover states expressivos nos cards e botões
+   - Contador animado de números
+
+5. **LAYOUT DINÂMICO**: Use pelo menos 2 técnicas de composição avançadas.
+
+---
+
+### 📐 ESTRUTURA OBRIGATÓRIA DO SITE
+
+1. HEADER FIXO com logo, menu desktop e botão WhatsApp
+2. HERO SECTION com H1 "Dedetizadora em Brasília", 2 CTAs e badge de disponibilidade
+3. SEÇÃO DE SERVIÇOS em grid de cards com botão WhatsApp específico por serviço
+4. SEÇÃO "POR QUE NOS ESCOLHER" com diferenciais e contadores animados
+5. DEPOIMENTOS com avatares, estrelas e avaliação média
+6. SEÇÃO DE ORÇAMENTO RÁPIDO com urgência e botão WhatsApp gigante
+7. FAQ com accordion (4-6 perguntas relevantes ao segmento, SEO semântico)
+8. FOOTER completo
+9. BOTÃO FLUTUANTE FIXO do WhatsApp com pulsação
+
+---
+
+### 📱 RESPONSIVIDADE, SEO E WHATSAPP
+
+- Mobile-first, menu hamburger, grid adaptativo
+- Meta tags SEO completas, H1 único, Schema.org LocalBusiness JSON-LD
+- Todos os links WhatsApp com mensagens pré-preenchidas contextuais
+- URL padrão: https://wa.me/5561998667927?text=[mensagem codificada]
+
+---
+
+### ⚙️ TÉCNICO
+
+- HTML5 semântico, Tailwind CSS via CDN, Google Fonts, JavaScript puro
+- Animações com @keyframes e IntersectionObserver
+- Cores como variáveis CSS no :root
+- Arquivo único .html completo e funcional
+
+**Gere o HTML completo, funcional e pronto para publicar. Não use comentários de TODO ou placeholders no código final.**
+
+  ▲ FIM DO PROMPT ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+
+────────────────────────────────────────────────────────────────────────────────
+  LEAD #18 — DDFOX DEDETIZADORA
+  📞 (61) 99312-9749
+  📍 SHCS CLS 215 - Asa Sul, Brasília - DF, 70295-540
+  🔗 https://www.google.com/maps/place/DDFOX+DEDETIZADORA/data=!4m7!3m6!1s0x8fc29e724b09c75f:0xf4c340dc444c245!8m2!3d-15.834555!4d-47.921279!16s%2Fg%2F11zj2jk99y!19sChIJX8cJS3Kewo8RRcJExA00TA8
+────────────────────────────────────────────────────────────────────────────────
+
+  ▼ COPIE O PROMPT ABAIXO ATÉ A LINHA ▲ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
+
+Você é um desenvolvedor web senior e designer especialista em landing pages de alta conversão para prestadores de serviços locais no Brasil. Crie um site completo em HTML, CSS e JavaScript puro (arquivo único) seguindo TODAS as instruções abaixo com precisão.
+
+---
+
+### 🏢 DADOS DA EMPRESA
+
+- **Nome da empresa:** DDFOX DEDETIZADORA
+- **Segmento / tipo de serviço:** Dedetizadora
+- **Cidade / região de atuação:** Brasília
+- **Número WhatsApp (com DDI):** (61) 99312-9749
+- **Cor primária da marca (hex):** #E21F26
+- **Cor secundária / de apoio (hex):** #1a1a1a
+- **URL da logo:** sem logo
+- **Serviços oferecidos:** Dedetização, Desratização, Descupinização, Sanitização, Controle de pombos, Desinsetização
+- **Diferenciais da empresa:** Atendimento 24h, Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada, Orçamento grátis
+- **Depoimentos de clientes:** (gere 3 depoimentos fictícios verossímeis para o segmento)
+- **CNPJ:** não informado
+- **E-mail:** não informado
+- **Redes sociais:** não informado
+- **Funciona quantas horas / dias?** 24h / 7 dias por semana
+- **Tom de comunicação desejado:** urgente e direto
+
+---
+
+### 🎨 REGRAS DE DESIGN (OBRIGATÓRIAS)
+
+1. **DESIGN ÚNICO E INOVADOR**: O layout deve ser original e visualmente impactante. PROIBIDO usar estruturas genéricas. Escolha UMA direção estética forte e execute com precisão:
+   - Brutalist / Raw (tipografia pesada, contraste extremo, formas cortadas)
+   - Editorial Magazine (assimetria elegante, colunas criativas, espaços generosos)
+   - Dark Luxury (fundo escuro, detalhes dourados ou vibrantes, sofisticação)
+   - Industrial Bold (texturas de metal/concreto, tipografia condensada, badges técnicos)
+   - Organic & Clean (gradientes suaves, formas arredondadas, leveza visual)
+   - Neon Urban (fundo escuro + neon da cor da marca, energia urbana)
+   - Minimalismo Geométrico (linhas precisas, grid rigoroso, espaço em branco proposital)
+
+2. **TIPOGRAFIA DISTINTIVA**: Importe fontes do Google Fonts que combinem com o segmento. PROIBIDO usar Inter, Roboto ou Arial.
+
+3. **PALETA DE CORES**: Use a cor primária da empresa como dominante. Verde WhatsApp (#25D366) APENAS nos botões de contato.
+
+4. **ANIMAÇÕES FUNCIONAIS**: Inclua obrigatoriamente:
+   - Pulsação no botão de WhatsApp principal
+   - Fade-in + slide nos elementos ao rolar a página (IntersectionObserver)
+   - Hover states expressivos nos cards e botões
+   - Contador animado de números
+
+5. **LAYOUT DINÂMICO**: Use pelo menos 2 técnicas de composição avançadas.
+
+---
+
+### 📐 ESTRUTURA OBRIGATÓRIA DO SITE
+
+1. HEADER FIXO com logo, menu desktop e botão WhatsApp
+2. HERO SECTION com H1 "Dedetizadora em Brasília", 2 CTAs e badge de disponibilidade
+3. SEÇÃO DE SERVIÇOS em grid de cards com botão WhatsApp específico por serviço
+4. SEÇÃO "POR QUE NOS ESCOLHER" com diferenciais e contadores animados
+5. DEPOIMENTOS com avatares, estrelas e avaliação média
+6. SEÇÃO DE ORÇAMENTO RÁPIDO com urgência e botão WhatsApp gigante
+7. FAQ com accordion (4-6 perguntas relevantes ao segmento, SEO semântico)
+8. FOOTER completo
+9. BOTÃO FLUTUANTE FIXO do WhatsApp com pulsação
+
+---
+
+### 📱 RESPONSIVIDADE, SEO E WHATSAPP
+
+- Mobile-first, menu hamburger, grid adaptativo
+- Meta tags SEO completas, H1 único, Schema.org LocalBusiness JSON-LD
+- Todos os links WhatsApp com mensagens pré-preenchidas contextuais
+- URL padrão: https://wa.me/5561993129749?text=[mensagem codificada]
+
+---
+
+### ⚙️ TÉCNICO
+
+- HTML5 semântico, Tailwind CSS via CDN, Google Fonts, JavaScript puro
+- Animações com @keyframes e IntersectionObserver
+- Cores como variáveis CSS no :root
+- Arquivo único .html completo e funcional
+
+**Gere o HTML completo, funcional e pronto para publicar. Não use comentários de TODO ou placeholders no código final.**
+
+  ▲ FIM DO PROMPT ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+
+────────────────────────────────────────────────────────────────────────────────
+  LEAD #19 — Império dedetização Brasília DF
+  📞 (61) 99854-9918
+  📍 Guará I QI 14 lote ,45 - Guará, Brasília - DF, 71015-050
+  🔗 https://www.google.com/maps/place/Imp%C3%A9rio+dedetiza%C3%A7%C3%A3o+Bras%C3%ADlia+DF/data=!4m7!3m6!1s0x935a315f4e7e2c4b:0x59134dd8e40882c2!8m2!3d-15.82186!4d-47.988645!16s%2Fg%2F11xgnt03py!19sChIJSyx-Tl8xWpMRwoII5NhNE1k
+────────────────────────────────────────────────────────────────────────────────
+
+  ▼ COPIE O PROMPT ABAIXO ATÉ A LINHA ▲ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
+
+Você é um desenvolvedor web senior e designer especialista em landing pages de alta conversão para prestadores de serviços locais no Brasil. Crie um site completo em HTML, CSS e JavaScript puro (arquivo único) seguindo TODAS as instruções abaixo com precisão.
+
+---
+
+### 🏢 DADOS DA EMPRESA
+
+- **Nome da empresa:** Império dedetização Brasília DF
+- **Segmento / tipo de serviço:** Dedetizadora
+- **Cidade / região de atuação:** Brasília
+- **Número WhatsApp (com DDI):** (61) 99854-9918
+- **Cor primária da marca (hex):** #E21F26
+- **Cor secundária / de apoio (hex):** #1a1a1a
+- **URL da logo:** sem logo
+- **Serviços oferecidos:** Dedetização, Desratização, Descupinização, Sanitização, Controle de pombos, Desinsetização
+- **Diferenciais da empresa:** Atendimento 24h, Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada, Orçamento grátis
+- **Depoimentos de clientes:** (gere 3 depoimentos fictícios verossímeis para o segmento)
+- **CNPJ:** não informado
+- **E-mail:** não informado
+- **Redes sociais:** não informado
+- **Funciona quantas horas / dias?** 24h / 7 dias por semana
+- **Tom de comunicação desejado:** urgente e direto
+
+---
+
+### 🎨 REGRAS DE DESIGN (OBRIGATÓRIAS)
+
+1. **DESIGN ÚNICO E INOVADOR**: O layout deve ser original e visualmente impactante. PROIBIDO usar estruturas genéricas. Escolha UMA direção estética forte e execute com precisão:
+   - Brutalist / Raw (tipografia pesada, contraste extremo, formas cortadas)
+   - Editorial Magazine (assimetria elegante, colunas criativas, espaços generosos)
+   - Dark Luxury (fundo escuro, detalhes dourados ou vibrantes, sofisticação)
+   - Industrial Bold (texturas de metal/concreto, tipografia condensada, badges técnicos)
+   - Organic & Clean (gradientes suaves, formas arredondadas, leveza visual)
+   - Neon Urban (fundo escuro + neon da cor da marca, energia urbana)
+   - Minimalismo Geométrico (linhas precisas, grid rigoroso, espaço em branco proposital)
+
+2. **TIPOGRAFIA DISTINTIVA**: Importe fontes do Google Fonts que combinem com o segmento. PROIBIDO usar Inter, Roboto ou Arial.
+
+3. **PALETA DE CORES**: Use a cor primária da empresa como dominante. Verde WhatsApp (#25D366) APENAS nos botões de contato.
+
+4. **ANIMAÇÕES FUNCIONAIS**: Inclua obrigatoriamente:
+   - Pulsação no botão de WhatsApp principal
+   - Fade-in + slide nos elementos ao rolar a página (IntersectionObserver)
+   - Hover states expressivos nos cards e botões
+   - Contador animado de números
+
+5. **LAYOUT DINÂMICO**: Use pelo menos 2 técnicas de composição avançadas.
+
+---
+
+### 📐 ESTRUTURA OBRIGATÓRIA DO SITE
+
+1. HEADER FIXO com logo, menu desktop e botão WhatsApp
+2. HERO SECTION com H1 "Dedetizadora em Brasília", 2 CTAs e badge de disponibilidade
+3. SEÇÃO DE SERVIÇOS em grid de cards com botão WhatsApp específico por serviço
+4. SEÇÃO "POR QUE NOS ESCOLHER" com diferenciais e contadores animados
+5. DEPOIMENTOS com avatares, estrelas e avaliação média
+6. SEÇÃO DE ORÇAMENTO RÁPIDO com urgência e botão WhatsApp gigante
+7. FAQ com accordion (4-6 perguntas relevantes ao segmento, SEO semântico)
+8. FOOTER completo
+9. BOTÃO FLUTUANTE FIXO do WhatsApp com pulsação
+
+---
+
+### 📱 RESPONSIVIDADE, SEO E WHATSAPP
+
+- Mobile-first, menu hamburger, grid adaptativo
+- Meta tags SEO completas, H1 único, Schema.org LocalBusiness JSON-LD
+- Todos os links WhatsApp com mensagens pré-preenchidas contextuais
+- URL padrão: https://wa.me/5561998549918?text=[mensagem codificada]
+
+---
+
+### ⚙️ TÉCNICO
+
+- HTML5 semântico, Tailwind CSS via CDN, Google Fonts, JavaScript puro
+- Animações com @keyframes e IntersectionObserver
+- Cores como variáveis CSS no :root
+- Arquivo único .html completo e funcional
+
+**Gere o HTML completo, funcional e pronto para publicar. Não use comentários de TODO ou placeholders no código final.**
+
+  ▲ FIM DO PROMPT ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+
+────────────────────────────────────────────────────────────────────────────────
+  LEAD #20 — Nocaute DF
+  📞 (61) 98617-5542
+  📍 Q 2 CJ Q, R. da Fazendinha, 15 - itapoa, Brasília - DF, 71596-271
+  🔗 https://www.google.com/maps/place/Nocaute+DF/data=!4m7!3m6!1s0x935a3ddead9ab593:0xa5e3c5ff7ef7ff68!8m2!3d-15.7916717!4d-47.8516322!16s%2Fg%2F11y1zxybmj!19sChIJk7Ward49WpMRaP_3fv_F46U
+────────────────────────────────────────────────────────────────────────────────
+
+  ▼ COPIE O PROMPT ABAIXO ATÉ A LINHA ▲ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
+
+Você é um desenvolvedor web senior e designer especialista em landing pages de alta conversão para prestadores de serviços locais no Brasil. Crie um site completo em HTML, CSS e JavaScript puro (arquivo único) seguindo TODAS as instruções abaixo com precisão.
+
+---
+
+### 🏢 DADOS DA EMPRESA
+
+- **Nome da empresa:** Nocaute DF
+- **Segmento / tipo de serviço:** Dedetizadora
+- **Cidade / região de atuação:** Brasília
+- **Número WhatsApp (com DDI):** (61) 98617-5542
+- **Cor primária da marca (hex):** #E21F26
+- **Cor secundária / de apoio (hex):** #1a1a1a
+- **URL da logo:** sem logo
+- **Serviços oferecidos:** Dedetização, Desratização, Descupinização, Sanitização, Controle de pombos, Desinsetização
+- **Diferenciais da empresa:** Atendimento 24h, Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada, Orçamento grátis
+- **Depoimentos de clientes:** (gere 3 depoimentos fictícios verossímeis para o segmento)
+- **CNPJ:** não informado
+- **E-mail:** não informado
+- **Redes sociais:** não informado
+- **Funciona quantas horas / dias?** 24h / 7 dias por semana
+- **Tom de comunicação desejado:** urgente e direto
+
+---
+
+### 🎨 REGRAS DE DESIGN (OBRIGATÓRIAS)
+
+1. **DESIGN ÚNICO E INOVADOR**: O layout deve ser original e visualmente impactante. PROIBIDO usar estruturas genéricas. Escolha UMA direção estética forte e execute com precisão:
+   - Brutalist / Raw (tipografia pesada, contraste extremo, formas cortadas)
+   - Editorial Magazine (assimetria elegante, colunas criativas, espaços generosos)
+   - Dark Luxury (fundo escuro, detalhes dourados ou vibrantes, sofisticação)
+   - Industrial Bold (texturas de metal/concreto, tipografia condensada, badges técnicos)
+   - Organic & Clean (gradientes suaves, formas arredondadas, leveza visual)
+   - Neon Urban (fundo escuro + neon da cor da marca, energia urbana)
+   - Minimalismo Geométrico (linhas precisas, grid rigoroso, espaço em branco proposital)
+
+2. **TIPOGRAFIA DISTINTIVA**: Importe fontes do Google Fonts que combinem com o segmento. PROIBIDO usar Inter, Roboto ou Arial.
+
+3. **PALETA DE CORES**: Use a cor primária da empresa como dominante. Verde WhatsApp (#25D366) APENAS nos botões de contato.
+
+4. **ANIMAÇÕES FUNCIONAIS**: Inclua obrigatoriamente:
+   - Pulsação no botão de WhatsApp principal
+   - Fade-in + slide nos elementos ao rolar a página (IntersectionObserver)
+   - Hover states expressivos nos cards e botões
+   - Contador animado de números
+
+5. **LAYOUT DINÂMICO**: Use pelo menos 2 técnicas de composição avançadas.
+
+---
+
+### 📐 ESTRUTURA OBRIGATÓRIA DO SITE
+
+1. HEADER FIXO com logo, menu desktop e botão WhatsApp
+2. HERO SECTION com H1 "Dedetizadora em Brasília", 2 CTAs e badge de disponibilidade
+3. SEÇÃO DE SERVIÇOS em grid de cards com botão WhatsApp específico por serviço
+4. SEÇÃO "POR QUE NOS ESCOLHER" com diferenciais e contadores animados
+5. DEPOIMENTOS com avatares, estrelas e avaliação média
+6. SEÇÃO DE ORÇAMENTO RÁPIDO com urgência e botão WhatsApp gigante
+7. FAQ com accordion (4-6 perguntas relevantes ao segmento, SEO semântico)
+8. FOOTER completo
+9. BOTÃO FLUTUANTE FIXO do WhatsApp com pulsação
+
+---
+
+### 📱 RESPONSIVIDADE, SEO E WHATSAPP
+
+- Mobile-first, menu hamburger, grid adaptativo
+- Meta tags SEO completas, H1 único, Schema.org LocalBusiness JSON-LD
+- Todos os links WhatsApp com mensagens pré-preenchidas contextuais
+- URL padrão: https://wa.me/5561986175542?text=[mensagem codificada]
+
+---
+
+### ⚙️ TÉCNICO
+
+- HTML5 semântico, Tailwind CSS via CDN, Google Fonts, JavaScript puro
+- Animações com @keyframes e IntersectionObserver
+- Cores como variáveis CSS no :root
+- Arquivo único .html completo e funcional
+
+**Gere o HTML completo, funcional e pronto para publicar. Não use comentários de TODO ou placeholders no código final.**
+
+  ▲ FIM DO PROMPT ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+
+────────────────────────────────────────────────────────────────────────────────
+  LEAD #21 — Ratatue Dedetizadora
+  📞 (61) 99341-8103
+  📍 QNO 05 CONJUTO G, St. O, Brasília - DF, 72250-331
+  🔗 https://www.google.com/maps/place/Ratatue+Dedetizadora/data=!4m7!3m6!1s0x935bc798ef7a133b:0xe5adbaef1780621a!8m2!3d-15.7912501!4d-48.1240087!16s%2Fg%2F11j904rh91!19sChIJOxN675jHW5MRGmKAF--6reU
+────────────────────────────────────────────────────────────────────────────────
+
+  ▼ COPIE O PROMPT ABAIXO ATÉ A LINHA ▲ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
+
+Você é um desenvolvedor web senior e designer especialista em landing pages de alta conversão para prestadores de serviços locais no Brasil. Crie um site completo em HTML, CSS e JavaScript puro (arquivo único) seguindo TODAS as instruções abaixo com precisão.
+
+---
+
+### 🏢 DADOS DA EMPRESA
+
+- **Nome da empresa:** Ratatue Dedetizadora
+- **Segmento / tipo de serviço:** Dedetizadora
+- **Cidade / região de atuação:** Brasília
+- **Número WhatsApp (com DDI):** (61) 99341-8103
+- **Cor primária da marca (hex):** #E21F26
+- **Cor secundária / de apoio (hex):** #1a1a1a
+- **URL da logo:** sem logo
+- **Serviços oferecidos:** Dedetização, Desratização, Descupinização, Sanitização, Controle de pombos, Desinsetização
+- **Diferenciais da empresa:** Atendimento 24h, Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada, Orçamento grátis
+- **Depoimentos de clientes:** (gere 3 depoimentos fictícios verossímeis para o segmento)
+- **CNPJ:** não informado
+- **E-mail:** não informado
+- **Redes sociais:** não informado
+- **Funciona quantas horas / dias?** 24h / 7 dias por semana
+- **Tom de comunicação desejado:** urgente e direto
+
+---
+
+### 🎨 REGRAS DE DESIGN (OBRIGATÓRIAS)
+
+1. **DESIGN ÚNICO E INOVADOR**: O layout deve ser original e visualmente impactante. PROIBIDO usar estruturas genéricas. Escolha UMA direção estética forte e execute com precisão:
+   - Brutalist / Raw (tipografia pesada, contraste extremo, formas cortadas)
+   - Editorial Magazine (assimetria elegante, colunas criativas, espaços generosos)
+   - Dark Luxury (fundo escuro, detalhes dourados ou vibrantes, sofisticação)
+   - Industrial Bold (texturas de metal/concreto, tipografia condensada, badges técnicos)
+   - Organic & Clean (gradientes suaves, formas arredondadas, leveza visual)
+   - Neon Urban (fundo escuro + neon da cor da marca, energia urbana)
+   - Minimalismo Geométrico (linhas precisas, grid rigoroso, espaço em branco proposital)
+
+2. **TIPOGRAFIA DISTINTIVA**: Importe fontes do Google Fonts que combinem com o segmento. PROIBIDO usar Inter, Roboto ou Arial.
+
+3. **PALETA DE CORES**: Use a cor primária da empresa como dominante. Verde WhatsApp (#25D366) APENAS nos botões de contato.
+
+4. **ANIMAÇÕES FUNCIONAIS**: Inclua obrigatoriamente:
+   - Pulsação no botão de WhatsApp principal
+   - Fade-in + slide nos elementos ao rolar a página (IntersectionObserver)
+   - Hover states expressivos nos cards e botões
+   - Contador animado de números
+
+5. **LAYOUT DINÂMICO**: Use pelo menos 2 técnicas de composição avançadas.
+
+---
+
+### 📐 ESTRUTURA OBRIGATÓRIA DO SITE
+
+1. HEADER FIXO com logo, menu desktop e botão WhatsApp
+2. HERO SECTION com H1 "Dedetizadora em Brasília", 2 CTAs e badge de disponibilidade
+3. SEÇÃO DE SERVIÇOS em grid de cards com botão WhatsApp específico por serviço
+4. SEÇÃO "POR QUE NOS ESCOLHER" com diferenciais e contadores animados
+5. DEPOIMENTOS com avatares, estrelas e avaliação média
+6. SEÇÃO DE ORÇAMENTO RÁPIDO com urgência e botão WhatsApp gigante
+7. FAQ com accordion (4-6 perguntas relevantes ao segmento, SEO semântico)
+8. FOOTER completo
+9. BOTÃO FLUTUANTE FIXO do WhatsApp com pulsação
+
+---
+
+### 📱 RESPONSIVIDADE, SEO E WHATSAPP
+
+- Mobile-first, menu hamburger, grid adaptativo
+- Meta tags SEO completas, H1 único, Schema.org LocalBusiness JSON-LD
+- Todos os links WhatsApp com mensagens pré-preenchidas contextuais
+- URL padrão: https://wa.me/5561993418103?text=[mensagem codificada]
+
+---
+
+### ⚙️ TÉCNICO
+
+- HTML5 semântico, Tailwind CSS via CDN, Google Fonts, JavaScript puro
+- Animações com @keyframes e IntersectionObserver
+- Cores como variáveis CSS no :root
+- Arquivo único .html completo e funcional
+
+**Gere o HTML completo, funcional e pronto para publicar. Não use comentários de TODO ou placeholders no código final.**
+
+  ▲ FIM DO PROMPT ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+
+────────────────────────────────────────────────────────────────────────────────
+  LEAD #22 — Atomic Dedetizadora
+  📞 (61) 98404-7090
+  📍 St. Hab. Vicente Pires Rua 06 Loja 02 - Vicente Pires, Brasília - DF, 72006-480
+  🔗 https://www.google.com/maps/place/Atomic+Dedetizadora/data=!4m7!3m6!1s0x935a33c0a6ce1fa5:0x8ba5ed7e7ff38e65!8m2!3d-15.808754!4d-48.0350445!16s%2Fg%2F11x5gp50yl!19sChIJpR_OpsAzWpMRZY7zf37tpYs
+────────────────────────────────────────────────────────────────────────────────
+
+  ▼ COPIE O PROMPT ABAIXO ATÉ A LINHA ▲ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
+
+Você é um desenvolvedor web senior e designer especialista em landing pages de alta conversão para prestadores de serviços locais no Brasil. Crie um site completo em HTML, CSS e JavaScript puro (arquivo único) seguindo TODAS as instruções abaixo com precisão.
+
+---
+
+### 🏢 DADOS DA EMPRESA
+
+- **Nome da empresa:** Atomic Dedetizadora
+- **Segmento / tipo de serviço:** Dedetizadora
+- **Cidade / região de atuação:** Brasília
+- **Número WhatsApp (com DDI):** (61) 98404-7090
+- **Cor primária da marca (hex):** #E21F26
+- **Cor secundária / de apoio (hex):** #1a1a1a
+- **URL da logo:** sem logo
+- **Serviços oferecidos:** Dedetização, Desratização, Descupinização, Sanitização, Controle de pombos, Desinsetização
+- **Diferenciais da empresa:** Atendimento 24h, Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada, Orçamento grátis
+- **Depoimentos de clientes:** (gere 3 depoimentos fictícios verossímeis para o segmento)
+- **CNPJ:** não informado
+- **E-mail:** não informado
+- **Redes sociais:** não informado
+- **Funciona quantas horas / dias?** 24h / 7 dias por semana
+- **Tom de comunicação desejado:** urgente e direto
+
+---
+
+### 🎨 REGRAS DE DESIGN (OBRIGATÓRIAS)
+
+1. **DESIGN ÚNICO E INOVADOR**: O layout deve ser original e visualmente impactante. PROIBIDO usar estruturas genéricas. Escolha UMA direção estética forte e execute com precisão:
+   - Brutalist / Raw (tipografia pesada, contraste extremo, formas cortadas)
+   - Editorial Magazine (assimetria elegante, colunas criativas, espaços generosos)
+   - Dark Luxury (fundo escuro, detalhes dourados ou vibrantes, sofisticação)
+   - Industrial Bold (texturas de metal/concreto, tipografia condensada, badges técnicos)
+   - Organic & Clean (gradientes suaves, formas arredondadas, leveza visual)
+   - Neon Urban (fundo escuro + neon da cor da marca, energia urbana)
+   - Minimalismo Geométrico (linhas precisas, grid rigoroso, espaço em branco proposital)
+
+2. **TIPOGRAFIA DISTINTIVA**: Importe fontes do Google Fonts que combinem com o segmento. PROIBIDO usar Inter, Roboto ou Arial.
+
+3. **PALETA DE CORES**: Use a cor primária da empresa como dominante. Verde WhatsApp (#25D366) APENAS nos botões de contato.
+
+4. **ANIMAÇÕES FUNCIONAIS**: Inclua obrigatoriamente:
+   - Pulsação no botão de WhatsApp principal
+   - Fade-in + slide nos elementos ao rolar a página (IntersectionObserver)
+   - Hover states expressivos nos cards e botões
+   - Contador animado de números
+
+5. **LAYOUT DINÂMICO**: Use pelo menos 2 técnicas de composição avançadas.
+
+---
+
+### 📐 ESTRUTURA OBRIGATÓRIA DO SITE
+
+1. HEADER FIXO com logo, menu desktop e botão WhatsApp
+2. HERO SECTION com H1 "Dedetizadora em Brasília", 2 CTAs e badge de disponibilidade
+3. SEÇÃO DE SERVIÇOS em grid de cards com botão WhatsApp específico por serviço
+4. SEÇÃO "POR QUE NOS ESCOLHER" com diferenciais e contadores animados
+5. DEPOIMENTOS com avatares, estrelas e avaliação média
+6. SEÇÃO DE ORÇAMENTO RÁPIDO com urgência e botão WhatsApp gigante
+7. FAQ com accordion (4-6 perguntas relevantes ao segmento, SEO semântico)
+8. FOOTER completo
+9. BOTÃO FLUTUANTE FIXO do WhatsApp com pulsação
+
+---
+
+### 📱 RESPONSIVIDADE, SEO E WHATSAPP
+
+- Mobile-first, menu hamburger, grid adaptativo
+- Meta tags SEO completas, H1 único, Schema.org LocalBusiness JSON-LD
+- Todos os links WhatsApp com mensagens pré-preenchidas contextuais
+- URL padrão: https://wa.me/5561984047090?text=[mensagem codificada]
+
+---
+
+### ⚙️ TÉCNICO
+
+- HTML5 semântico, Tailwind CSS via CDN, Google Fonts, JavaScript puro
+- Animações com @keyframes e IntersectionObserver
+- Cores como variáveis CSS no :root
+- Arquivo único .html completo e funcional
+
+**Gere o HTML completo, funcional e pronto para publicar. Não use comentários de TODO ou placeholders no código final.**
+
+  ▲ FIM DO PROMPT ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+
+────────────────────────────────────────────────────────────────────────────────
+  LEAD #23 — BRASÍLIA PARK DEDETIZADORA
+  📞 (61) 99128-8782
+  📍 St. Central Sala 205 - Taguatinga Centro, Brasília - DF, 72010-100
+  🔗 https://www.google.com/maps/place/BRAS%C3%8DLIA+PARK+DEDETIZADORA/data=!4m7!3m6!1s0x935a32e9a62a4115:0xad9865790c6beacf!8m2!3d-15.8337052!4d-48.0582021!16s%2Fg%2F11k3m9sm9p!19sChIJFUEqpukyWpMRz-prDHllmK0
+────────────────────────────────────────────────────────────────────────────────
+
+  ▼ COPIE O PROMPT ABAIXO ATÉ A LINHA ▲ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
+
+Você é um desenvolvedor web senior e designer especialista em landing pages de alta conversão para prestadores de serviços locais no Brasil. Crie um site completo em HTML, CSS e JavaScript puro (arquivo único) seguindo TODAS as instruções abaixo com precisão.
+
+---
+
+### 🏢 DADOS DA EMPRESA
+
+- **Nome da empresa:** BRASÍLIA PARK DEDETIZADORA
+- **Segmento / tipo de serviço:** Dedetizadora
+- **Cidade / região de atuação:** Brasília
+- **Número WhatsApp (com DDI):** (61) 99128-8782
+- **Cor primária da marca (hex):** #E21F26
+- **Cor secundária / de apoio (hex):** #1a1a1a
+- **URL da logo:** sem logo
+- **Serviços oferecidos:** Dedetização, Desratização, Descupinização, Sanitização, Controle de pombos, Desinsetização
+- **Diferenciais da empresa:** Atendimento 24h, Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada, Orçamento grátis
+- **Depoimentos de clientes:** (gere 3 depoimentos fictícios verossímeis para o segmento)
+- **CNPJ:** não informado
+- **E-mail:** não informado
+- **Redes sociais:** não informado
+- **Funciona quantas horas / dias?** 24h / 7 dias por semana
+- **Tom de comunicação desejado:** urgente e direto
+
+---
+
+### 🎨 REGRAS DE DESIGN (OBRIGATÓRIAS)
+
+1. **DESIGN ÚNICO E INOVADOR**: O layout deve ser original e visualmente impactante. PROIBIDO usar estruturas genéricas. Escolha UMA direção estética forte e execute com precisão:
+   - Brutalist / Raw (tipografia pesada, contraste extremo, formas cortadas)
+   - Editorial Magazine (assimetria elegante, colunas criativas, espaços generosos)
+   - Dark Luxury (fundo escuro, detalhes dourados ou vibrantes, sofisticação)
+   - Industrial Bold (texturas de metal/concreto, tipografia condensada, badges técnicos)
+   - Organic & Clean (gradientes suaves, formas arredondadas, leveza visual)
+   - Neon Urban (fundo escuro + neon da cor da marca, energia urbana)
+   - Minimalismo Geométrico (linhas precisas, grid rigoroso, espaço em branco proposital)
+
+2. **TIPOGRAFIA DISTINTIVA**: Importe fontes do Google Fonts que combinem com o segmento. PROIBIDO usar Inter, Roboto ou Arial.
+
+3. **PALETA DE CORES**: Use a cor primária da empresa como dominante. Verde WhatsApp (#25D366) APENAS nos botões de contato.
+
+4. **ANIMAÇÕES FUNCIONAIS**: Inclua obrigatoriamente:
+   - Pulsação no botão de WhatsApp principal
+   - Fade-in + slide nos elementos ao rolar a página (IntersectionObserver)
+   - Hover states expressivos nos cards e botões
+   - Contador animado de números
+
+5. **LAYOUT DINÂMICO**: Use pelo menos 2 técnicas de composição avançadas.
+
+---
+
+### 📐 ESTRUTURA OBRIGATÓRIA DO SITE
+
+1. HEADER FIXO com logo, menu desktop e botão WhatsApp
+2. HERO SECTION com H1 "Dedetizadora em Brasília", 2 CTAs e badge de disponibilidade
+3. SEÇÃO DE SERVIÇOS em grid de cards com botão WhatsApp específico por serviço
+4. SEÇÃO "POR QUE NOS ESCOLHER" com diferenciais e contadores animados
+5. DEPOIMENTOS com avatares, estrelas e avaliação média
+6. SEÇÃO DE ORÇAMENTO RÁPIDO com urgência e botão WhatsApp gigante
+7. FAQ com accordion (4-6 perguntas relevantes ao segmento, SEO semântico)
+8. FOOTER completo
+9. BOTÃO FLUTUANTE FIXO do WhatsApp com pulsação
+
+---
+
+### 📱 RESPONSIVIDADE, SEO E WHATSAPP
+
+- Mobile-first, menu hamburger, grid adaptativo
+- Meta tags SEO completas, H1 único, Schema.org LocalBusiness JSON-LD
+- Todos os links WhatsApp com mensagens pré-preenchidas contextuais
+- URL padrão: https://wa.me/5561991288782?text=[mensagem codificada]
+
+---
+
+### ⚙️ TÉCNICO
+
+- HTML5 semântico, Tailwind CSS via CDN, Google Fonts, JavaScript puro
+- Animações com @keyframes e IntersectionObserver
+- Cores como variáveis CSS no :root
+- Arquivo único .html completo e funcional
+
+**Gere o HTML completo, funcional e pronto para publicar. Não use comentários de TODO ou placeholders no código final.**
+
+  ▲ FIM DO PROMPT ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
