@@ -16,6 +16,7 @@
 import time
 import re
 import sys
+import os
 import pandas as pd
 from datetime import datetime
 from urllib.parse import quote
@@ -375,16 +376,22 @@ def scrape_google_maps(nicho: str, cidade: str, headless: bool = True) -> pd.Dat
 
 def salvar_resultados(df: pd.DataFrame, nicho: str, cidade: str) -> str:
     """
-    Salva o DataFrame em arquivo .xlsx com formatação colorida.
+    Salva o DataFrame em arquivo .xlsx dentro da pasta Notes com formatação colorida.
     Leads sem site ficam destacados em vermelho claro.
+
+    A pasta Notes é criada se ainda não existir.
 
     Returns:
         Caminho do arquivo salvo.
     """
+    # garante diretório de saída
+    pasta = "Notes"
+    os.makedirs(pasta, exist_ok=True)
+
     # Nome do arquivo com timestamp para evitar sobrescrever dados anteriores
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     nome_arquivo = f"leads_{nicho.lower().replace(' ', '_')}_{cidade.lower().replace(' ', '_')}_{timestamp}.xlsx"
-    caminho = nome_arquivo  # Salva no diretório atual
+    caminho = os.path.join(pasta, nome_arquivo)
 
     try:
         with pd.ExcelWriter(caminho, engine="openpyxl") as writer:
@@ -674,15 +681,20 @@ def gerar_prompt_site(lead: dict, nicho: str, cidade: str) -> str:
 def salvar_prompts(df: pd.DataFrame, nicho: str, cidade: str) -> str:
     """
     Para cada lead sem site, gera e salva o prompt em um arquivo .txt
-    com separadores claros. Retorna o caminho do arquivo gerado.
+    dentro da pasta Notes, com separadores claros. Retorna o caminho do arquivo gerado.
     """
     leads_sem_site = df[df["Status do Site"] == "Não Tem"]
 
     if leads_sem_site.empty:
         return None
 
+    # garante diretório de saída
+    pasta = "Notes"
+    os.makedirs(pasta, exist_ok=True)
+
     timestamp    = datetime.now().strftime("%Y%m%d_%H%M%S")
     nome_arquivo = f"prompts_sites_{nicho.lower().replace(' ', '_')}_{cidade.lower().replace(' ', '_')}_{timestamp}.txt"
+    caminho = os.path.join(pasta, nome_arquivo)
 
     linhas = []
     linhas.append("=" * 80)
