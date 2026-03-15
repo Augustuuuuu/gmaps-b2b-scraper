@@ -1,26 +1,18 @@
 """
 =============================================================================
   Google Maps B2B Lead Scraper  ·  com integração Notion
-  Autor: Script gerado para prospecção de clientes
   Descrição: Extrai dados de estabelecimentos no Google Maps, identifica
              leads prioritários (sem website) e os envia automaticamente
-             para o Notion.
-
-  NOVIDADE: ao final do scraping, todos os leads sem site são enviados
-  direto para sua Base de Leads no Notion — sem copiar e colar nada.
-
-=============================================================================
+             para o Notion. Gera também um formulário preenchido para
+             criação de sites, pronto para usar no Claude.ai.
 
   INSTALAÇÃO DAS DEPENDÊNCIAS:
-  pip install playwright pandas openpyxl requests python-dotenv
+  pip install playwright pandas requests python-dotenv
   playwright install chromium
 
-  CONFIGURAÇÃO DO NOTION (uma vez só):
-  1. Crie o arquivo .env na mesma pasta deste script com:
-       NOTION_TOKEN=secret_xxxxxxxxxxxx
-       DATABASE_ID=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-  2. Siga as instruções em notion_sync.py para obter esses valores.
-
+  CONFIGURAÇÃO DO NOTION (.env na mesma pasta):
+  NOTION_TOKEN=secret_xxxxxxxxxxxx
+  DATABASE_ID=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 =============================================================================
 """
 
@@ -28,12 +20,10 @@ import time
 import re
 import sys
 import os
-import pandas as pd
 from datetime import datetime
 from urllib.parse import quote
 
 # ── Integração com Notion ────────────────────────────────────────────────────
-# Importa o módulo de integração. Se não encontrar, desativa silenciosamente.
 try:
     from notion_sync import enviar_lote_para_notion
     NOTION_DISPONIVEL = True
@@ -48,6 +38,8 @@ try:
 except ImportError:
     print("❌ Playwright não encontrado. Execute: pip install playwright && playwright install chromium")
     sys.exit(1)
+
+import pandas as pd
 
 
 # ============================================================================
@@ -72,6 +64,10 @@ SEL_ENDERECO         = 'button[data-item-id="address"]'
 SEL_TELEFONE         = 'button[data-item-id^="phone:"]'
 SEL_WEBSITE          = 'a[data-item-id="authority"]'
 
+
+# ============================================================================
+#  FUNÇÕES DE SCRAPING
+# ============================================================================
 
 def limpar_texto(texto: str) -> str:
     if not texto:
@@ -228,7 +224,6 @@ def scrape_google_maps(nicho: str, cidade: str, headless: bool = True) -> pd.Dat
         print(f"  📋 {len(lista_links)} estabelecimentos encontrados. Extraindo dados...\n")
 
         for idx, link in enumerate(lista_links, start=1):
-            # Progresso em linha única que se atualiza
             print(f"  ⏳ Progresso: {idx}/{len(lista_links)}  ({int(idx/len(lista_links)*100)}%)", end="\r")
             try:
                 page.goto(link, wait_until="domcontentloaded", timeout=20_000)
@@ -265,59 +260,6 @@ def scrape_google_maps(nicho: str, cidade: str, headless: bool = True) -> pd.Dat
     return df
 
 
-def salvar_resultados(df: pd.DataFrame, nicho: str, cidade: str) -> str:
-    # garante diretório de saída
-    pasta = "Notes"
-    os.makedirs(pasta, exist_ok=True)
-
-    timestamp    = datetime.now().strftime("%Y%m%d_%H%M%S")
-    nome_arquivo = f"leads_{nicho.lower().replace(' ', '_')}_{cidade.lower().replace(' ', '_')}_{timestamp}.xlsx"
-    caminho      = os.path.join(pasta, nome_arquivo)
-
-    try:
-        with pd.ExcelWriter(caminho, engine="openpyxl") as writer:
-            df.to_excel(writer, index=False, sheet_name="Leads")
-            workbook  = writer.book
-            worksheet = writer.sheets["Leads"]
-
-            from openpyxl.styles import PatternFill, Font, Alignment, Border, Side
-            header_fill = PatternFill("solid", fgColor="1F4E79")
-            header_font = Font(bold=True, color="FFFFFF", size=11)
-            borda_fina  = Border(
-                left=Side(style="thin"), right=Side(style="thin"),
-                top=Side(style="thin"),  bottom=Side(style="thin")
-            )
-            for cell in worksheet[1]:
-                cell.fill      = header_fill
-                cell.font      = header_font
-                cell.alignment = Alignment(horizontal="center", vertical="center")
-                cell.border    = borda_fina
-
-            fill_sem_site = PatternFill("solid", fgColor="FFCCCC")
-            fill_com_site = PatternFill("solid", fgColor="CCFFCC")
-            for row in worksheet.iter_rows(min_row=2, max_row=worksheet.max_row):
-                status_cell = row[1]
-                cor = fill_sem_site if status_cell.value == "Não Tem" else fill_com_site
-                for cell in row:
-                    cell.fill      = cor
-                    cell.border    = borda_fina
-                    cell.alignment = Alignment(vertical="center", wrap_text=True)
-
-            larguras = {"A": 40, "B": 15, "C": 18, "D": 45, "E": 35, "F": 55}
-            for col, largura in larguras.items():
-                worksheet.column_dimensions[col].width = largura
-            worksheet.freeze_panes = "A2"
-
-        print(f"\n✅ Arquivo salvo com sucesso: {caminho}")
-    except Exception as e:
-        print(f"⚠️  Erro ao salvar .xlsx: {e}. Salvando como .csv...")
-        caminho = caminho.replace(".xlsx", ".csv")
-        df.to_csv(caminho, index=False, encoding="utf-8-sig")
-        print(f"✅ Arquivo CSV salvo: {caminho}")
-
-    return caminho
-
-
 def exibir_resumo(df: pd.DataFrame, nicho: str, cidade: str) -> None:
     total        = len(df)
     sem_site     = len(df[df["Status do Site"] == "Não Tem"])
@@ -343,9 +285,176 @@ def exibir_resumo(df: pd.DataFrame, nicho: str, cidade: str) -> None:
             print(f"       📍 {row['Endereço'] or 'Endereço não disponível'}\n")
 
 
-# ── O restante do código (prompts, template, etc.) permanece igual ────────────
-# (Cole aqui as funções gerar_prompt_site, salvar_prompts, inferir_dados_segmento
-#  e TEMPLATE_PROMPT do seu arquivo original — não foram alteradas)
+# ============================================================================
+#  GERADOR DE FORMULÁRIOS
+#  Para cada lead sem website, gera um formulário preenchido com os dados
+#  disponíveis, pronto para colar no Claude.ai e criar a landing page.
+# ============================================================================
+
+# Mapeamento de nichos para paletas e serviços padrão
+_CONFIGS_NICHO = {
+    "dedetiz": {
+        "cor_primaria": "#E21F26", "cor_secundaria": "#1a1a1a",
+        "servicos": ["Dedetização", "Desratização", "Descupinização", "Sanitização", "Controle de pombos", "Desinsetização"],
+        "cnae": "8122-2/00 – Imunização, higienização, desinfecção e dedetização",
+        "certificacoes": "Produtos certificados ANVISA, Garantia de 90 dias, Equipe treinada",
+    },
+    "eletric": {
+        "cor_primaria": "#F5A623", "cor_secundaria": "#b37a00",
+        "servicos": ["Instalação elétrica", "Quadro de distribuição", "Iluminação LED", "Tomadas e interruptores", "Laudo elétrico NR-10"],
+        "cnae": "4321-5/00 – Instalação e manutenção elétrica",
+        "certificacoes": "Registro CREA, NR-10, Garantia técnica em contrato",
+    },
+    "encanament|desentupid|hidraul": {
+        "cor_primaria": "#1E90FF", "cor_secundaria": "#0a5fad",
+        "servicos": ["Desentupimento", "Vazamentos", "Instalação hidráulica", "Limpeza de caixas d'água", "Conserto de torneiras"],
+        "cnae": "4322-3/01 – Instalações hidráulicas, sanitárias e de gás",
+        "certificacoes": "Atendimento emergencial, Garantia nos serviços, Orçamento grátis",
+    },
+    "limpez|higieniz": {
+        "cor_primaria": "#1a4fa0", "cor_secundaria": "#4a90e2",
+        "servicos": ["Limpeza residencial", "Limpeza comercial", "Limpeza pós-obra", "Higienização de sofás", "Limpeza de vidros"],
+        "cnae": "8121-4/00 – Limpeza em prédios e domicílios",
+        "certificacoes": "Produtos certificados ANVISA, Equipe uniformizada, Satisfação garantida",
+    },
+    "pintur": {
+        "cor_primaria": "#FF6B35", "cor_secundaria": "#c44a1a",
+        "servicos": ["Pintura residencial", "Pintura comercial", "Textura", "Grafiato", "Pintura externa e interna"],
+        "cnae": "4330-4/04 – Serviços de pintura de edifícios em geral",
+        "certificacoes": "Acabamento impecável, Prazo garantido, Orçamento grátis",
+    },
+    "ar.condicion|refriger|climat": {
+        "cor_primaria": "#0ea5e9", "cor_secundaria": "#0369a1",
+        "servicos": ["Instalação de ar-condicionado", "Manutenção preventiva", "Limpeza de filtros", "Recarga de gás", "Desinstalação e reinstalação"],
+        "cnae": "4322-3/02 – Instalação de sistemas de ar-condicionado",
+        "certificacoes": "Técnico certificado, Todas as marcas, Garantia no serviço",
+    },
+    "dentist|odont": {
+        "cor_primaria": "#2E86AB", "cor_secundaria": "#1a5f7a",
+        "servicos": ["Clareamento dental", "Ortodontia", "Implantes", "Limpeza", "Restaurações"],
+        "cnae": "8630-5/01 – Atividade médica ambulatorial com recursos para realização de procedimentos cirúrgicos",
+        "certificacoes": "CRO ativo, Ambiente esterilizado, Parcelamento facilitado",
+    },
+    "academi|fitness|muscula": {
+        "cor_primaria": "#FF3D00", "cor_secundaria": "#c42d00",
+        "servicos": ["Musculação", "Funcional", "Spinning", "Yoga", "Personal trainer"],
+        "cnae": "9313-1/00 – Atividades de condicionamento físico",
+        "certificacoes": "Professores qualificados, Ambiente climatizado, Avaliação física gratuita",
+    },
+}
+
+def _inferir_config(nicho: str) -> dict:
+    """Retorna config de design/serviços baseada no nicho detectado."""
+    nicho_lower = nicho.lower()
+    for padrao, config in _CONFIGS_NICHO.items():
+        if re.search(padrao, nicho_lower):
+            return config
+    # Fallback genérico
+    return {
+        "cor_primaria": "#2563EB", "cor_secundaria": "#1e40af",
+        "servicos": [f"Serviços de {nicho}", "Atendimento especializado", "Orçamento grátis"],
+        "cnae": "Consultar contador",
+        "certificacoes": "Equipe qualificada, Preço justo, Garantia nos serviços",
+    }
+
+
+def _extrair_cidade_curta(endereco: str, cidade_busca: str) -> str:
+    """Tenta extrair cidade - UF do endereço; fallback para cidade da busca."""
+    if endereco:
+        match = re.search(r'([A-ZÀ-Ú][a-zà-ú\s]+)\s*[-,]\s*([A-Z]{2})', endereco)
+        if match:
+            return f"{match.group(1).strip()} - {match.group(2)}"
+    return cidade_busca
+
+
+def gerar_formulario(lead: dict, nicho: str, cidade: str) -> str:
+    """
+    Gera o formulário preenchido para um lead sem site.
+    Os campos que não temos são marcados como [PREENCHER].
+    """
+    config = _inferir_config(nicho)
+
+    # Número formatado para exibição
+    tel = lead.get("Telefone", "").strip()
+    # Remove DDI se já tiver, mantém formato limpo
+    tel_display = tel if tel else "[PREENCHER]"
+
+    endereco = lead.get("Endereço", "").strip()
+    cidade_display = _extrair_cidade_curta(endereco, cidade)
+    if endereco and cidade_display not in endereco:
+        cidade_display = f"{cidade_display} · {endereco}"
+
+    servicos_fmt = "\n".join(f"* {s}" for s in config["servicos"])
+
+    formulario = f"""FORMULÁRIO — Novo Site de Serviços
+Preencha e envie no projeto do Claude.ai
+──────────────────────────────────────────
+NOVA EMPRESA:
+Nome:        {lead['Nome']}
+Segmento:    {nicho}
+WhatsApp:    {tel_display}
+Endereço:    {cidade_display or '[PREENCHER]'}
+Cores:       {config['cor_primaria']}, {config['cor_secundaria']}
+Serviços:
+{servicos_fmt}
+
+Razão Social:   [PREENCHER]
+CNPJ:           [PREENCHER]
+Abertura:       [PREENCHER]
+CNAE:           {config['cnae']}
+Certificações:  {config['certificacoes']}
+Logo:           SEM LOGO
+
+Link Maps: {lead.get('Link do Maps', '')}
+──────────────────────────────────────────"""
+
+    return formulario
+
+
+def salvar_formularios(df: pd.DataFrame, nicho: str, cidade: str) -> str | None:
+    """
+    Gera um arquivo .txt com os formulários de todos os leads sem site.
+    Retorna o caminho do arquivo gerado.
+    """
+    sem_site = df[df["Status do Site"] == "Não Tem"]
+
+    if sem_site.empty:
+        return None
+
+    pasta = "Formularios"
+    os.makedirs(pasta, exist_ok=True)
+
+    timestamp    = datetime.now().strftime("%Y%m%d_%H%M%S")
+    nome_arquivo = f"formularios_{nicho.lower().replace(' ', '_')}_{cidade.lower().replace(' ', '_')}_{timestamp}.txt"
+    caminho      = os.path.join(pasta, nome_arquivo)
+
+    linhas = []
+    linhas.append("=" * 55)
+    linhas.append(f"  FORMULÁRIOS PARA CRIAÇÃO DE SITES")
+    linhas.append(f"  Nicho: {nicho.upper()} | Cidade: {cidade.upper()}")
+    linhas.append(f"  Gerado em: {datetime.now().strftime('%d/%m/%Y %H:%M')}")
+    linhas.append(f"  Total: {len(sem_site)} lead(s) sem site")
+    linhas.append("=" * 55)
+    linhas.append("")
+    linhas.append("  COMO USAR:")
+    linhas.append("  1. Copie um bloco de formulário abaixo")
+    linhas.append("  2. Preencha os campos marcados com [PREENCHER]")
+    linhas.append("  3. Cole no projeto do Claude.ai para gerar o site")
+    linhas.append("")
+
+    for idx, (_, row) in enumerate(sem_site.iterrows(), 1):
+        lead = row.to_dict()
+        linhas.append(f"{'─' * 55}")
+        linhas.append(f"  LEAD #{idx:02} — {lead['Nome']}")
+        linhas.append(f"{'─' * 55}")
+        linhas.append("")
+        linhas.append(gerar_formulario(lead, nicho, cidade))
+        linhas.append("")
+
+    with open(caminho, "w", encoding="utf-8") as f:
+        f.write("\n".join(linhas))
+
+    return caminho
 
 
 # ============================================================================
@@ -359,7 +468,7 @@ if __name__ == "__main__":
     print("=" * 55)
 
     nicho  = input("\n  📌 Digite o nicho de mercado (ex: Dentistas): ").strip()
-    cidade = input("  🏙️  Digite a cidade/região (ex: São Paulo SP): ").strip()
+    cidade = input("  🏙️  Digite a cidade/região (ex: Brasília DF): ").strip()
 
     if not nicho or not cidade:
         print("❌ Nicho e cidade são obrigatórios!")
@@ -384,24 +493,27 @@ if __name__ == "__main__":
         df_leads = scrape_google_maps(nicho, cidade, headless=headless)
 
         if not df_leads.empty:
-            arquivo_xlsx = salvar_resultados(df_leads, nicho, cidade)
             exibir_resumo(df_leads, nicho, cidade)
 
-            # ── ENVIO AUTOMÁTICO PARA O NOTION ──────────────────────────────
+            # ── ENVIO PARA O NOTION ──────────────────────────────────────────
             if usar_notion and NOTION_DISPONIVEL:
                 enviar_lote_para_notion(
                     df     = df_leads,
                     nicho  = nicho,
                     rodada = rodada_nome,
                 )
-            # ────────────────────────────────────────────────────────────────
 
+            # ── GERAÇÃO DE FORMULÁRIOS ───────────────────────────────────────
             sem_site = len(df_leads[df_leads["Status do Site"] == "Não Tem"])
             if sem_site > 0:
-                print(f"\n  🤖 Gerando prompts de site para {sem_site} lead(s) sem website...")
-                # arquivo_prompts = salvar_prompts(df_leads, nicho, cidade)  # descomente se usar
+                print(f"\n  📝 Gerando formulários para {sem_site} lead(s) sem website...")
+                arquivo_forms = salvar_formularios(df_leads, nicho, cidade)
+                if arquivo_forms:
+                    print(f"  ✅ Formulários salvos em: {arquivo_forms}")
+                    print(f"  💡 Abra o arquivo, complete os campos [PREENCHER] e cole no Claude.ai!")
+            else:
+                print("\n  ℹ️  Nenhum lead sem site — formulários não gerados.")
 
-            print(f"\n  📁 Planilha gerada: {arquivo_xlsx}\n")
         else:
             print("\n❌ Nenhum dado coletado. Verifique a busca e tente novamente.")
 
